@@ -132,7 +132,7 @@ func (world *World) SetFeature(feature *Uri, value *Node) {
 }
 
 //GetFeature returns a value node for a world feature
-func (world *World) GetFeature(feature *Uri) *Node {
+func (world *World) GetFeature(feature *Uri) (*Node, error) {
 	var node *Node
 	var err error
 	nodeValue := C.librdf_world_get_feature(world.librdf_world, feature.librdf_uri)
@@ -141,13 +141,11 @@ func (world *World) GetFeature(feature *Uri) *Node {
 		node, err = NewNode(world)
 
 		if err != nil {
-			panic(err)
+			node.librdf_node = nodeValue
 		}
-
-		node.librdf_node = nodeValue
 	}
 
-	return node
+	return node, err
 }
 
 //SetDigest sets a digest for the world

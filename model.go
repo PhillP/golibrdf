@@ -17,7 +17,7 @@
 * You may not use this file except in compliance with at least one of
 * the above three licenses.
 *
-*/
+ */
 
 package golibrdf
 

@@ -7,6 +7,12 @@ Please refer to the tests within golibrdf_test.go which also serve as examples
 of various usage scenarios.  These tests are based on corresponding examples
 within Redland RDF itself.
 
+Status:
+=======
+Incomplete. This set of bindings does not cover the complete Redland API.  It currently covers the usage scenarios and portions of the API required to support the Redland examples.
+
+The test set is to be extended.
+
 Prerequisites:
 ==============
 * Redland libRDF, Rasqal and Raptor libraries must be installed first. (Refer to instructions at http://librdf.org)
@@ -28,3 +34,9 @@ Windows / OSX / Explicit library locations:
 ```
 
 Refer to LICENSE.txt for license information.
+
+Usage
+=====
+The golibrdf_test.go file contains tests that also serve as usage examples.
+
+[A basic example is to be included here]

@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:planet="http://planetrdf.com/ns/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel rdf:about="http://planetrdf.com/">
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-30T17:06:09.31Z</dc:date>
+  <title>Planet RDF</title>
+  <link>http://planetrdf.com/</link>
+  <admin:generatorAgent rdf:resource="http://www.mnot.net/python/RSS.py?version=0.44"></admin:generatorAgent>
+  <description>It's triples all the way down</description>
+  <items><rdf:Seq>
+   <rdf:li rdf:resource="http://blog.aksw.org/2013/big-at-lswt-2013-from-big-data-to-smart-data/"></rdf:li>
+   <rdf:li rdf:resource="http://blog.ldodds.com/2013/09/25/its-more-than-the-link/"></rdf:li>
+   <rdf:li rdf:resource="http://www.w3.org/blog/SW/2013/09/25/new-draft-for-the-vcard-ontology/"></rdf:li>
+   <rdf:li rdf:resource="http://blog.aksw.org/2013/slidewiki-is-now-open-source/"></rdf:li>
+   <rdf:li rdf:resource="http://tw.rpi.edu/weblog/2013/09/24/fake-open-access-publication-in-now-days-and-my-suggestion/"></rdf:li>
+   <rdf:li rdf:resource="http://norman.walsh.name//2013/09/24/adverseCamber"></rdf:li>
+   <rdf:li rdf:resource="http://johngoodwin225.wordpress.com/2013/09/24/ordnance-survey-linked-data-the-search-api/"></rdf:li>
+   <rdf:li rdf:resource="http://www.snee.com/bobdc.blog/2013/09/making-charts-out-of-sparql-qu.html"></rdf:li>
+   <rdf:li rdf:resource="http://www.w3.org/blog/SW/2013/09/22/last-call-working-draft-published-for-trig/"></rdf:li>
+   <rdf:li rdf:resource="http://norman.walsh.name//2013/gplus/z13kh5b5smibeli0j23jsze54mbrj10pp04"></rdf:li>
+   <rdf:li rdf:resource="http://norman.walsh.name//2013/gplus/z122cnpolpmwuvezf04chz3xcomcyxw42qo0k"></rdf:li>
+   <rdf:li rdf:resource="http://chem-bla-ics.blogspot.com/2013/09/first-wd-of-encoding-units-and-unit.html"></rdf:li>
+   <rdf:li rdf:resource="http://dublincore.org/news/2013/#dcmi-news-20130912-02"></rdf:li>
+   <rdf:li rdf:resource="http://dublincore.org/news/2013/#dcmi-news-20130912-03"></rdf:li>
+   <rdf:li rdf:resource="http://blog.aksw.org/2013/ontowiki-feature-of-the-week-lov-integration/"></rdf:li>
+   <rdf:li rdf:resource="http://www.w3.org/blog/SW/2013/09/11/json-ld-feature-freeze-and-call-for-implementation/"></rdf:li>
+   <rdf:li rdf:resource="http://dublincore.org/news/2013/#dcmi-news-20130912-01"></rdf:li>
+   <rdf:li rdf:resource="http://blog.aksw.org/2013/ontowiki-feature-of-the-week-document-management/"></rdf:li>
+   <rdf:li rdf:resource="http://chem-bla-ics.blogspot.com/2013/09/next-bioclipse-opentox-workshop-gig.html"></rdf:li>
+   <rdf:li rdf:resource="http://www.w3.org/blog/SW/2013/09/06/two-last-call-working-drafts-published-by-the-rdf-working-group-n-triples-and-n-quads/"></rdf:li>
+   <rdf:li rdf:resource="http://johngoodwin225.wordpress.com/2013/09/06/ordnance-survey-names-gazetteer-illustrative-data/"></rdf:li>
+   <rdf:li rdf:resource="http://blog.semantic-web.at/2013/09/06/bruno-eugster-how-to-bring-already-pre-filtered-information-to-the-employees-desk/"></rdf:li>
+   <rdf:li rdf:resource="http://johngoodwin225.wordpress.com/2013/09/01/interview-in-odbms-org/"></rdf:li>
+   <rdf:li rdf:resource="http://www.w3.org/community/rww/2013/08/31/read-write-web-monthly-open-thread-august-2013/"></rdf:li>
+   <rdf:li rdf:resource="http://chem-bla-ics.blogspot.com/2013/08/the-dutch-dataverse-network-host-for.html"></rdf:li>
+   <rdf:li rdf:resource="http://blog.aksw.org/2013/ontowiki-feature-of-the-week-api-documentation/"></rdf:li>
+  </rdf:Seq></items>
+</channel>
+<item rdf:about="http://blog.aksw.org/2013/big-at-lswt-2013-from-big-data-to-smart-data/">
+  <dc:creator>AKSW Group - University of Leipzig</dc:creator>
+  <dc:source>AKSW Group - University of Leipzig</dc:source>
+  <dc:relation>http://blog.aksw.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>The 5th <a href=
+"http://aksw.org/Events/2013/LeipzigerSemanticWebTag.html" target=
+"_blank">Leipziger Semantic Web Tag</a> (LSWT2013) was organized as
+a meeting point for german as well as international Linked Data
+experts. Under the motto: From Big Data to Smart Data sophisticated
+methods that enable handling large amounts of data have been
+presented on September 23th in Leipzig. The keynote was held by
+Hans Uszkoreit, scientific director at the German Research Center
+for Artificial Intelligence (DFKI). By being introduced &#160;to
+Text Analytics and Big Data issues the participants of the LSWT
+2013 discussed the intelligent usage of huge amounts of data in the
+web.</p>
+<p>Presentations on industrial and scientific solutions showed
+working solutions to big data concerns. Companies like Empolis,
+Brox and Ontos presented Linked Data and Semantic Web solutions
+capable of handling terabytes of data. However, also traditional
+approaches, like Datameer’s Data Analytics Solution based on Hadoop
+pointed out that big data could be handled nowadays without bigger
+problems.</p>
+<p>Furthermore, problems detecting topics in massive data streams
+(Topic/S), document collections (WisARD) or corpora at information
+service providers (Wolters Kluwer) were tackled. Even the ethical
+issue of robots replacing journalists by the help of semantic data
+has been examined by Alexander Siebert from Retresco.</p>
+<p>In conclusion, the analysis of textual information in large
+amounts of data is an interesting and so far not yet fully solved
+area of work. Further Information are available from
+the&#160;website.</p>
+<p>Further information on topics related to data analysis, data
+curation, data storage, data acquisition and data usage can be
+found in our <a href=
+"http://www.big-project.eu/sites/default/files/D2.2.1_First%20draft%20of%20Technical%20white%20papers_FINAL_v1.01_0.pdf"
+target="_blank">technical whitepaper</a> available from our project
+website.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-30T15:36:09Z</dc:date>
+  <title>BIG at LSWT 2013 – From BIG Data to Smart Data</title>
+  <link>http://blog.aksw.org/2013/big-at-lswt-2013-from-big-data-to-smart-data/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>The 5th <a href=
+"http://aksw.org/Events/2013/LeipzigerSemanticWebTag.html" target=
+"_blank">Leipziger Semantic Web Tag</a> (LSWT2013) was organized as
+a meeting point for german as well as international Linked Data
+experts. Under the motto: From Big Data to Smart Data sophisticated
+methods that enable handling large amounts of data have been
+presented on September 23th in Leipzig. The keynote was held by
+Hans Uszkoreit, scientific director at the German Research Center
+for Artificial Intelligence (DFKI). By being introduced &#160;to
+Text Analytics and Big Data issues the participants of the LSWT
+2013 discussed the intelligent usage of huge amounts of data in the
+web.</p>
+<p>Presentations on industrial and scientific solutions showed
+working solutions to big data concerns. Companies like Empolis,
+Brox and Ontos presented Linked Data and Semantic Web solutions
+capable of handling terabytes of data. However, also traditional
+approaches, like Datameer’s Data Analytics Solution based on Hadoop
+pointed out that big data could be handled nowadays without bigger
+problems.</p>
+<p>Furthermore, problems detecting topics in massive data streams
+(Topic/S), document collections (WisARD) or corpora at information
+service providers (Wolters Kluwer) were tackled. Even the ethical
+issue of robots replacing journalists by the help of semantic data
+has been examined by Alexander Siebert from Retresco.</p>
+<p>In conclusion, the analysis of textual information in large
+amounts of data is an interesting and so far not yet fully solved
+area of work. Further Information are available from
+the&#160;website.</p>
+<p>Further information on topics related to data analysis, data
+curation, data storage, data acquisition and data usage can be
+found in our <a href=
+"http://www.big-project.eu/sites/default/files/D2.2.1_First%20draft%20of%20Technical%20white%20papers_FINAL_v1.01_0.pdf"
+target="_blank">technical whitepaper</a> available from our project
+website.</p>
+</div>
+</div>]]></content:encoded>
+  <description>The 5th Leipziger Semantic Web Tag (LSWT2013) was organized as a meeting point for german as well as international Linked Data experts. Under the motto: From Big Data to Smart Data sophisticated methods that enable handling large amounts of data have been presented on September 23th in Leipzig. The keynote was held by Hans Uszkoreit, scientific director at the German Research Center for Artificial Intelligence (DFKI). By being introduced &amp;#160;to Text Analytics and Big Data issues the participants of the LSWT 2013 discussed the intelligent usage of huge amounts of data in the web. Presentations on industrial and scientific solutions ...</description>
+</item>
+<item rdf:about="http://blog.ldodds.com/2013/09/25/its-more-than-the-link/">
+  <dc:creator>Leigh Dodds</dc:creator>
+  <dc:source>Lost Boy by Leigh Dodds</dc:source>
+  <dc:relation>http://ldodds.com/blog/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>To be successful the web sacrificed some of the features of
+hypertext systems. Things like backwards linking and link
+integrity, etc. One of the great things about the web is that its
+possible to rebuild some of those features, but in a distributed
+way. Different communities can then address their own
+requirements.</p>
+<p>Link integrity is one of those aspects. In many cases link
+integrity is not an issue. Some web resources are ephemeral (e.g.
+pastebin snippets), but others — particularly those used and
+consumed by scholarly communities — need to be longer lived.
+CrossRef and other members of the DOI Foundation have been
+successfully building linking services that attempt to provide
+persistent links to material references in scholarly research, for
+many years.</p>
+<p>Yesterday Geoff Bilder published 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-25T11:08:07Z</dc:date>
+  <title>Its about more than the link</title>
+  <link>http://blog.ldodds.com/2013/09/25/its-more-than-the-link/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>To be successful the web sacrificed some of the features of
+hypertext systems. Things like backwards linking and link
+integrity, etc. One of the great things about the web is that its
+possible to rebuild some of those features, but in a distributed
+way. Different communities can then address their own
+requirements.</p>
+<p>Link integrity is one of those aspects. In many cases link
+integrity is not an issue. Some web resources are ephemeral (e.g.
+pastebin snippets), but others — particularly those used and
+consumed by scholarly communities — need to be longer lived.
+CrossRef and other members of the DOI Foundation have been
+successfully building linking services that attempt to provide
+persistent links to material references in scholarly research, for
+many years.</p>
+<p>Yesterday Geoff Bilder published 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</div>]]></content:encoded>
+  <description>To be successful the web sacrificed some of the features of hypertext systems. Things like backwards linking and link integrity, etc. One of the great things about the web is that its possible to rebuild some of those features, but in a distributed way. Different communities can then address their own requirements. Link integrity is one of those aspects. In many cases link integrity is not an issue. Some web resources are ephemeral (e.g. pastebin snippets), but others — particularly those used and consumed by scholarly communities — need to be longer lived. CrossRef and other members of the DOI ...</description>
+</item>
+<item rdf:about="http://www.w3.org/blog/SW/2013/09/25/new-draft-for-the-vcard-ontology/">
+  <dc:creator>W3C Semantic Web News</dc:creator>
+  <dc:source>W3C Semantic Web News</dc:source>
+  <dc:relation>http://www.w3.org/2001/sw/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>The <a href="http://www.w3.org/2001/sw/interest/">Semantic Web
+Interest Group</a> has published a new Working Draft of <a href=
+"http://www.w3.org/TR/2013/WD-vcard-rdf-20130924/">vCard
+Ontology</a>. The document describes a mapping of the vCard
+specification (RFC6350) to RDF/OWL. The goal is to promote the use
+of vCard for the description of people and organizations utilizing
+semantic web techniques and allowing compatibility with traditional
+vCard implementations.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-25T07:19:24Z</dc:date>
+  <title>New draft for the vCard Ontology</title>
+  <link>http://www.w3.org/blog/SW/2013/09/25/new-draft-for-the-vcard-ontology/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>The <a href="http://www.w3.org/2001/sw/interest/">Semantic Web
+Interest Group</a> has published a new Working Draft of <a href=
+"http://www.w3.org/TR/2013/WD-vcard-rdf-20130924/">vCard
+Ontology</a>. The document describes a mapping of the vCard
+specification (RFC6350) to RDF/OWL. The goal is to promote the use
+of vCard for the description of people and organizations utilizing
+semantic web techniques and allowing compatibility with traditional
+vCard implementations.</p>
+</div>
+</div>]]></content:encoded>
+  <description>
+ 
+ The  Semantic Web
+Interest Group  has published a new Working Draft of  vCard
+Ontology . The document describes a mapping of the vCard
+specification (RFC6350) to RDF/OWL. The goal is to promote the use
+of vCard for the description of people and organizations utilizing
+semantic web techniques and allowing compatibility with traditional
+vCard implementations. 
+ 
+</description>
+</item>
+<item rdf:about="http://blog.aksw.org/2013/slidewiki-is-now-open-source/">
+  <dc:creator>AKSW Group - University of Leipzig</dc:creator>
+  <dc:source>AKSW Group - University of Leipzig</dc:source>
+  <dc:relation>http://blog.aksw.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>We are pleased to announce that we have just released the
+<a href="http://slidewiki.org">SlideWiki.org</a> source code under
+the permissive Apache open-source license. It is now available for
+download from the AKSW Github repository at:<br />
+<a href=
+"https://github.com/AKSW/SlideWiki">https://github.com/AKSW/SlideWiki</a></p>
+<p>The SlideWiki database dumps are also available at:<br />
+<a href="http://slidewiki.org/db/">http://slidewiki.org/db/</a></p>
+<p>SlideWiki.org is a platform for OpenCourseWare authoring and
+enables communities of educators to author, share and re-use
+multilingual educational content in a truly collaborative way. By
+completely open-sourcing SlideWiki and giving the community access
+to all the content we aim at:</p>
+<ul>
+<li>Providing open access to crowdsourced e-learning material to be
+authored, shared and reused.</li>
+<li>Collaborating with other open-source projects to improve the
+quality of SlideWiki implementation.</li>
+<li>Inviting developers to openly contribute to SlideWiki and to
+write customized plugins and themes for SlideWiki.</li>
+<li>Providing offline access to SlideWiki system.</li>
+</ul>
+<p>To read more about SlideWiki features, see:<br />
+<a href=
+"http://slidewiki.org/documentation">http://slidewiki.org/documentation</a></p>
+<p>On behalf of SlideWiki team,<br />
+Ali Khalili, Darya Tarasowa and Sören Auer</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-24T22:45:28Z</dc:date>
+  <title>SlideWiki is now Open Source</title>
+  <link>http://blog.aksw.org/2013/slidewiki-is-now-open-source/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>We are pleased to announce that we have just released the
+<a href="http://slidewiki.org">SlideWiki.org</a> source code under
+the permissive Apache open-source license. It is now available for
+download from the AKSW Github repository at:<br />
+<a href=
+"https://github.com/AKSW/SlideWiki">https://github.com/AKSW/SlideWiki</a></p>
+<p>The SlideWiki database dumps are also available at:<br />
+<a href="http://slidewiki.org/db/">http://slidewiki.org/db/</a></p>
+<p>SlideWiki.org is a platform for OpenCourseWare authoring and
+enables communities of educators to author, share and re-use
+multilingual educational content in a truly collaborative way. By
+completely open-sourcing SlideWiki and giving the community access
+to all the content we aim at:</p>
+<ul>
+<li>Providing open access to crowdsourced e-learning material to be
+authored, shared and reused.</li>
+<li>Collaborating with other open-source projects to improve the
+quality of SlideWiki implementation.</li>
+<li>Inviting developers to openly contribute to SlideWiki and to
+write customized plugins and themes for SlideWiki.</li>
+<li>Providing offline access to SlideWiki system.</li>
+</ul>
+<p>To read more about SlideWiki features, see:<br />
+<a href=
+"http://slidewiki.org/documentation">http://slidewiki.org/documentation</a></p>
+<p>On behalf of SlideWiki team,<br />
+Ali Khalili, Darya Tarasowa and Sören Auer</p>
+</div>
+</div>]]></content:encoded>
+  <description>We are pleased to announce that we have just released the SlideWiki.org source code under the permissive Apache open-source license. It is now available for download from the AKSW Github repository at: https://github.com/AKSW/SlideWiki The SlideWiki database dumps are also available at: http://slidewiki.org/db/ SlideWiki.org is a platform for OpenCourseWare authoring and enables communities of educators to author, share and re-use multilingual educational content in a truly collaborative way. By completely open-sourcing SlideWiki and giving the community access to all the content we aim at: Providing open access to crowdsourced e-learning material to be authored, shared and reused. Collaborating with other open-source ...</description>
+</item>
+<item rdf:about="http://tw.rpi.edu/weblog/2013/09/24/fake-open-access-publication-in-now-days-and-my-suggestion/">
+  <dc:creator>Tetherless World Constellation group RPI</dc:creator>
+  <dc:source>Tetherless World Constellation group RPI</dc:source>
+  <dc:relation>http://tw.rpi.edu/weblog/feed/rdf/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>Open Access in now days is such a *FAKE* idea. It is the
+author’s paper, not the publisher’s. Currently what a reader pays
+is for the typesetting according to the format of a publisher. A
+author can make his own manuscript (not the pdf from the publisher)
+anywhere online for access. Now a author pays hundreds to a
+publisher for Open Access to his paper. I URGE, publishers should
+provide a *FREE* function that allows a author registers a link to
+his author-made version of a paper on the landing page of the DOI
+of a published paper. This is the *TRUE* Open Access. What most
+readers need is the meaning of a paper, not the typesetting. If one
+do cares the typesetting, he can pay a subscription to get the
+publisher’s version. University or institutional libraries should
+build facilities and functionalities that support employees to
+register and upload author-made versions of publications – to
+improve the visibility and accessibility of the academic work of
+the institution itself.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-24T20:56:37Z</dc:date>
+  <title>FAKE open access publications in now days and my
+suggestion</title>
+  <link>http://tw.rpi.edu/weblog/2013/09/24/fake-open-access-publication-in-now-days-and-my-suggestion/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>Open Access in now days is such a *FAKE* idea. It is the
+author’s paper, not the publisher’s. Currently what a reader pays
+is for the typesetting according to the format of a publisher. A
+author can make his own manuscript (not the pdf from the publisher)
+anywhere online for access. Now a author pays hundreds to a
+publisher for Open Access to his paper. I URGE, publishers should
+provide a *FREE* function that allows a author registers a link to
+his author-made version of a paper on the landing page of the DOI
+of a published paper. This is the *TRUE* Open Access. What most
+readers need is the meaning of a paper, not the typesetting. If one
+do cares the typesetting, he can pay a subscription to get the
+publisher’s version. University or institutional libraries should
+build facilities and functionalities that support employees to
+register and upload author-made versions of publications – to
+improve the visibility and accessibility of the academic work of
+the institution itself.</p>
+</div>
+</div>]]></content:encoded>
+  <description>Open Access in now days is such a *FAKE* idea. It is the author’s paper, not the publisher’s. Currently what a reader pays is for the typesetting according to the format of a publisher. A author can make his own manuscript (not the pdf from the publisher) anywhere online for access. Now a author pays hundreds to a publisher for Open Access to his paper. I URGE, publishers should provide a *FREE* function that allows a author registers a link to his author-made version of a paper on the landing page of the DOI of a published paper. This is ...</description>
+</item>
+<item rdf:about="http://norman.walsh.name//2013/09/24/adverseCamber">
+  <dc:creator>Norm Walsh</dc:creator>
+  <dc:source>Norm Walsh</dc:source>
+  <dc:relation>http://norman.walsh.name/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>Really, the title says it all, doesn't it? Challenge to my
+non-UK readers: guess what this essay is about before reading
+further.</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-24T19:26:44Z</dc:date>
+  <title>Adverse camber and soft verges</title>
+  <link>http://norman.walsh.name//2013/09/24/adverseCamber</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>Really, the title says it all, doesn't it? Challenge to my
+non-UK readers: guess what this essay is about before reading
+further.</div>
+</div>]]></content:encoded>
+  <description>
+ Really, the title says it all, doesn't it? Challenge to my
+non-UK readers: guess what this essay is about before reading
+further. 
+</description>
+</item>
+<item rdf:about="http://johngoodwin225.wordpress.com/2013/09/24/ordnance-survey-linked-data-the-search-api/">
+  <dc:creator>John Goodwin</dc:creator>
+  <dc:source>John Goodwin</dc:source>
+  <dc:relation>http://johngoodwin225.wordpress.com/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p><em>Please note in some of the examples below I have been having
+trouble with wordpress ‘correcting’ quote marks in my text. If you
+find the queries don’t work you may need to manually replace the
+copied quote marks from below with new ones via your keyboard. Hope
+that makes sense.</em></p>
+<p>One of the biggest improvements to the new 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-24T14:32:24Z</dc:date>
+  <title>Ordnance Survey Linked Data: The Search API</title>
+  <link>http://johngoodwin225.wordpress.com/2013/09/24/ordnance-survey-linked-data-the-search-api/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p><em>Please note in some of the examples below I have been having
+trouble with wordpress ‘correcting’ quote marks in my text. If you
+find the queries don’t work you may need to manually replace the
+copied quote marks from below with new ones via your keyboard. Hope
+that makes sense.</em></p>
+<p>One of the biggest improvements to the new 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</div>]]></content:encoded>
+  <description>
+ 
+  Please note in some of the examples below I have been having
+trouble with wordpress ‘correcting’ quote marks in my text. If you
+find the queries don’t work you may need to manually replace the
+copied quote marks from below with new ones via your keyboard. Hope
+that makes sense.  
+ One of the biggest improvements to the new 
+  
+  
+ 
+</description>
+</item>
+<item rdf:about="http://www.snee.com/bobdc.blog/2013/09/making-charts-out-of-sparql-qu.html">
+  <dc:creator>Bob DuCharme</dc:creator>
+  <dc:source>bobdc.blog by Bob DuCharme</dc:source>
+  <dc:relation>http://www.snee.com/bobdc.blog/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>Embed a query in your HTML, name an endpoint, and pick a chart
+type.</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-22T14:21:28Z</dc:date>
+  <title>Making charts out of SPARQL query results with
+sgvizler</title>
+  <link>http://www.snee.com/bobdc.blog/2013/09/making-charts-out-of-sparql-qu.html</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>Embed a query in your HTML, name an endpoint, and pick a chart
+type.</div>
+</div>]]></content:encoded>
+  <description>
+ Embed a query in your HTML, name an endpoint, and pick a chart
+type. 
+</description>
+</item>
+<item rdf:about="http://www.w3.org/blog/SW/2013/09/22/last-call-working-draft-published-for-trig/">
+  <dc:creator>W3C Semantic Web News</dc:creator>
+  <dc:source>W3C Semantic Web News</dc:source>
+  <dc:relation>http://www.w3.org/2001/sw/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>The <a href="http://www.w3.org/2011/rdf-wg/">W3C RDF Working
+Group</a> has published a Last Call Working Draft of <a href=
+"http://www.w3.org/TR/2013/WD-trig-20130919/">TriG</a>. This
+document defines a textual syntax for RDF called TriG that allows
+an RDF dataset to be completely written in a compact and natural
+text form, with abbreviations for common usage patterns and
+datatypes. TriG is an extension of the Turtle format. Comments are
+welcome through 11 October.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-22T09:02:47Z</dc:date>
+  <title>Last Call Working Draft published for TriG</title>
+  <link>http://www.w3.org/blog/SW/2013/09/22/last-call-working-draft-published-for-trig/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>The <a href="http://www.w3.org/2011/rdf-wg/">W3C RDF Working
+Group</a> has published a Last Call Working Draft of <a href=
+"http://www.w3.org/TR/2013/WD-trig-20130919/">TriG</a>. This
+document defines a textual syntax for RDF called TriG that allows
+an RDF dataset to be completely written in a compact and natural
+text form, with abbreviations for common usage patterns and
+datatypes. TriG is an extension of the Turtle format. Comments are
+welcome through 11 October.</p>
+</div>
+</div>]]></content:encoded>
+  <description>
+ 
+ The  W3C RDF Working
+Group  has published a Last Call Working Draft of  TriG . This
+document defines a textual syntax for RDF called TriG that allows
+an RDF dataset to be completely written in a compact and natural
+text form, with abbreviations for common usage patterns and
+datatypes. TriG is an extension of the Turtle format. Comments are
+welcome through 11 October. 
+ 
+</description>
+</item>
+<item rdf:about="http://norman.walsh.name//2013/gplus/z13kh5b5smibeli0j23jsze54mbrj10pp04">
+  <dc:creator>Norm Walsh</dc:creator>
+  <dc:source>Norm Walsh</dc:source>
+  <dc:relation>http://norman.walsh.name/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>This posting was authored in Google+. It will be
+simultaneously (for some slightly time...</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-17T14:35:02Z</dc:date>
+  <title>Make it go</title>
+  <link>http://norman.walsh.name//2013/gplus/z13kh5b5smibeli0j23jsze54mbrj10pp04</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>This posting was authored in Google+. It will be
+simultaneously (for some slightly time...</div>
+</div>]]></content:encoded>
+  <description>
+ This posting was authored in Google+. It will be
+simultaneously (for some slightly time... 
+</description>
+</item>
+<item rdf:about="http://norman.walsh.name//2013/gplus/z122cnpolpmwuvezf04chz3xcomcyxw42qo0k">
+  <dc:creator>Norm Walsh</dc:creator>
+  <dc:source>Norm Walsh</dc:source>
+  <dc:relation>http://norman.walsh.name/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>With full English weather.</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-17T14:07:01Z</dc:date>
+  <title>Teddy Hall quad</title>
+  <link>http://norman.walsh.name//2013/gplus/z122cnpolpmwuvezf04chz3xcomcyxw42qo0k</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>With full English weather.</div>
+</div>]]></content:encoded>
+  <description>
+ With full English weather. 
+</description>
+</item>
+<item rdf:about="http://chem-bla-ics.blogspot.com/2013/09/first-wd-of-encoding-units-and-unit.html">
+  <dc:creator>Egon Willighagen</dc:creator>
+  <dc:source>chem-bla-ics by Egon Willighagen</dc:source>
+  <dc:relation>http://chem-bla-ics.blogspot.com/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>While the <a href=
+"http://www.bigcat.unimaas.nl/~egonw/units/">editors draft</a> has
+been online for a while, I have added some more <a href=
+"https://code.google.com/p/unit-ontology/">Unit Ontology</a> -
+<a href="http://qudt.org/">QUDT</a> mappings and updated the
+matching <a href="https://github.com/openphacts/jqudt">jQUDT</a>
+library, and now put the first Working Draft (WD) version online on
+the <a href="http://www.openphacts.org/specs/">Open PHACTS
+specifications website</a>, ready to accept comments (it's
+primarily informative, rather than normative):<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.openphacts.org/specs/2013/WD-units-20130913/"
+style="margin-left: 1em; margin-right: 1em;"><img border="0"
+height="310" src=
+"http://1.bp.blogspot.com/-3yTWzhotIAw/UjNWQY6l_TI/AAAAAAAACC4/_VOwEe1vNOU/s400/opsSpecs.png"
+width="400" alt="" /></a></div>
+<br />
+A big thanks&#160;to Ralph Hodgson and the other QUDT authors for
+developing this ontology and in particularly to have it include a
+framework and the needed information to interconvert units, which
+we take advantage of! And I am very much looking forward to the
+webinar of the QUDT team for the <a href=
+"http://openphacts.org/">Open PHACTS</a> project in some 10
+days.</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-13T18:19Z</dc:date>
+  <title>First WD of "Encoding units and unit types in RDF using
+QUDT"</title>
+  <link>http://chem-bla-ics.blogspot.com/2013/09/first-wd-of-encoding-units-and-unit.html</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>While the <a href=
+"http://www.bigcat.unimaas.nl/~egonw/units/">editors draft</a> has
+been online for a while, I have added some more <a href=
+"https://code.google.com/p/unit-ontology/">Unit Ontology</a> -
+<a href="http://qudt.org/">QUDT</a> mappings and updated the
+matching <a href="https://github.com/openphacts/jqudt">jQUDT</a>
+library, and now put the first Working Draft (WD) version online on
+the <a href="http://www.openphacts.org/specs/">Open PHACTS
+specifications website</a>, ready to accept comments (it's
+primarily informative, rather than normative):<br />
+<br />
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://www.openphacts.org/specs/2013/WD-units-20130913/"
+style="margin-left: 1em; margin-right: 1em;"><img border="0"
+height="310" src=
+"http://1.bp.blogspot.com/-3yTWzhotIAw/UjNWQY6l_TI/AAAAAAAACC4/_VOwEe1vNOU/s400/opsSpecs.png"
+width="400" alt="" /></a></div>
+<br />
+A big thanks&#160;to Ralph Hodgson and the other QUDT authors for
+developing this ontology and in particularly to have it include a
+framework and the needed information to interconvert units, which
+we take advantage of! And I am very much looking forward to the
+webinar of the QUDT team for the <a href=
+"http://openphacts.org/">Open PHACTS</a> project in some 10
+days.</div>
+</div>]]></content:encoded>
+  <description>While the editors draft has been online for a while, I have added some more Unit Ontology - QUDT mappings and updated the matching jQUDT library, and now put the first Working Draft (WD) version online on the Open PHACTS specifications website , ready to accept comments (it's primarily informative, rather than normative): A big thanks&amp;#160;to Ralph Hodgson and the other QUDT authors for developing this ontology and in particularly to have it include a framework and the needed information to interconvert units, which we take advantage of! And I am very much looking forward to the webinar of the ...</description>
+</item>
+<item rdf:about="http://dublincore.org/news/2013/#dcmi-news-20130912-02">
+  <dc:creator>Dublin Core Metadata Initiative</dc:creator>
+  <dc:source>Dublin Core Metadata Initiative</dc:source>
+  <dc:relation>http://www.dublincore.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>2013-09-12, The collocated conferences for <a href=
+"http://dcevents.dublincore.org/IntConf/dc-2013">DC-2013</a> and
+<a href="http://ipres2013.ist.utl.pt/">iPRES-2013</a> in Lisbon
+attracted 392 participants from over 37 countries. In addition to
+the Tuesday through Thursday conference days comprised of
+peer-reviewed paper and special sessions, 223 participants attended
+pre-conference tutorials and 246 participated in post-conference
+workshops for the collocated events. The peer-reviewed papers and
+presentations are available on the conference website <a href=
+"http://dcevents.dublincore.org/index.php/IntConf/dc-2013/schedConf/presentations">
+Presentation page</a>. In sum, it was a great conference.</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T23:59Z</dc:date>
+  <title>392 participants gather in Lisbon for the collocated
+DC-2013/iPRES-2013 conferences</title>
+  <link>http://dublincore.org/news/2013/#dcmi-news-20130912-02</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>2013-09-12, The collocated conferences for <a href=
+"http://dcevents.dublincore.org/IntConf/dc-2013">DC-2013</a> and
+<a href="http://ipres2013.ist.utl.pt/">iPRES-2013</a> in Lisbon
+attracted 392 participants from over 37 countries. In addition to
+the Tuesday through Thursday conference days comprised of
+peer-reviewed paper and special sessions, 223 participants attended
+pre-conference tutorials and 246 participated in post-conference
+workshops for the collocated events. The peer-reviewed papers and
+presentations are available on the conference website <a href=
+"http://dcevents.dublincore.org/index.php/IntConf/dc-2013/schedConf/presentations">
+Presentation page</a>. In sum, it was a great conference.</div>
+</div>]]></content:encoded>
+  <description>
+ 2013-09-12, The collocated conferences for  DC-2013  and
+ iPRES-2013  in Lisbon
+attracted 392 participants from over 37 countries. In addition to
+the Tuesday through Thursday conference days comprised of
+peer-reviewed paper and special sessions, 223 participants attended
+pre-conference tutorials and 246 participated in post-conference
+workshops for the collocated events. The peer-reviewed papers and
+presentations are available on the conference website  
+Presentation page . In sum, it was a great conference. 
+</description>
+</item>
+<item rdf:about="http://dublincore.org/news/2013/#dcmi-news-20130912-03">
+  <dc:creator>Dublin Core Metadata Initiative</dc:creator>
+  <dc:source>Dublin Core Metadata Initiative</dc:source>
+  <dc:relation>http://www.dublincore.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>2013-09-12, On 12 September, DCMI launched its <a href=
+"http://dublincore.org/support/#individualMember">Individual Member
+program</a>. In addition to Individual Members financially
+supporting the work of DCMI, they also enjoy the benefits of
+reduced registration fees for the International Conference on
+Dublin Core and Metadata Applications and webinars and tutorials.
+Regular Individual Memberships are available for practicing
+professionals as well as a Student category. Retired professionals
+can join at the Student rate. Organizational memberships remain
+available for Regional, Institutional and Supporting members. For
+details of membership, see <a href=
+"http://dublincore.org/support/">Join/Support</a>.</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-12T23:59Z</dc:date>
+  <title>DCMI launches Individual Member program</title>
+  <link>http://dublincore.org/news/2013/#dcmi-news-20130912-03</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>2013-09-12, On 12 September, DCMI launched its <a href=
+"http://dublincore.org/support/#individualMember">Individual Member
+program</a>. In addition to Individual Members financially
+supporting the work of DCMI, they also enjoy the benefits of
+reduced registration fees for the International Conference on
+Dublin Core and Metadata Applications and webinars and tutorials.
+Regular Individual Memberships are available for practicing
+professionals as well as a Student category. Retired professionals
+can join at the Student rate. Organizational memberships remain
+available for Regional, Institutional and Supporting members. For
+details of membership, see <a href=
+"http://dublincore.org/support/">Join/Support</a>.</div>
+</div>]]></content:encoded>
+  <description>
+ 2013-09-12, On 12 September, DCMI launched its  Individual Member
+program . In addition to Individual Members financially
+supporting the work of DCMI, they also enjoy the benefits of
+reduced registration fees for the International Conference on
+Dublin Core and Metadata Applications and webinars and tutorials.
+Regular Individual Memberships are available for practicing
+professionals as well as a Student category. Retired professionals
+can join at the Student rate. Organizational memberships remain
+available for Regional, Institutional and Supporting members. For
+details of membership, see  Join/Support . 
+</description>
+</item>
+<item rdf:about="http://blog.aksw.org/2013/ontowiki-feature-of-the-week-lov-integration/">
+  <dc:creator>AKSW Group - University of Leipzig</dc:creator>
+  <dc:source>AKSW Group - University of Leipzig</dc:source>
+  <dc:relation>http://blog.aksw.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>This weeks presented feature is the new integration interface of
+the <a href="http://lov.okfn.org/dataset/lov/">Linked Open
+Vocabularies (LOV)</a> repository. LOV is a hand crafted repository
+of linked RDF/OWL vocabularies with well managed vocabulary meta
+data. We added a Vocabulary Selection module in order to allow
+searching and exploring of the LOV repository. This module allows
+for:</p>
+<ul>
+<li>Create a Knowledge Base directly from a search result by
+importing the content from the web (create model screen)</li>
+<li>Add the content of a specific vocabulary to an existing
+Knowledge Base (add data screen)</li>
+<li>Add namespace prefixes based on a LOV search (configure model
+screen)</li>
+</ul>
+<p>Search is done by a SPARQL query which uses a case-insensitive
+regular expression over all direct properties of the listed
+vocabularies.</p>
+<p><a href=
+"http://blog.aksw.org/wp-content/uploads/2013/09/SelectorModule.png">
+<img src=
+"http://blog.aksw.org/wp-content/uploads/2013/09/SelectorModule.png"
+alt="" title="SelectorModule" width="100%" class=
+"aligncenter size-full wp-image-1192" /></a></p>
+<p>The screenshot shows the module in action, in this case a result
+of a search for “Event”.</p>
+<p>This LOV integration is currently available in the
+<code>develop</code> branch only and will be released with the next
+OntoWiki version.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-11T10:03:17Z</dc:date>
+  <title>OntoWiki Feature of the Week: LOV Integration</title>
+  <link>http://blog.aksw.org/2013/ontowiki-feature-of-the-week-lov-integration/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>This weeks presented feature is the new integration interface of
+the <a href="http://lov.okfn.org/dataset/lov/">Linked Open
+Vocabularies (LOV)</a> repository. LOV is a hand crafted repository
+of linked RDF/OWL vocabularies with well managed vocabulary meta
+data. We added a Vocabulary Selection module in order to allow
+searching and exploring of the LOV repository. This module allows
+for:</p>
+<ul>
+<li>Create a Knowledge Base directly from a search result by
+importing the content from the web (create model screen)</li>
+<li>Add the content of a specific vocabulary to an existing
+Knowledge Base (add data screen)</li>
+<li>Add namespace prefixes based on a LOV search (configure model
+screen)</li>
+</ul>
+<p>Search is done by a SPARQL query which uses a case-insensitive
+regular expression over all direct properties of the listed
+vocabularies.</p>
+<p><a href=
+"http://blog.aksw.org/wp-content/uploads/2013/09/SelectorModule.png">
+<img src=
+"http://blog.aksw.org/wp-content/uploads/2013/09/SelectorModule.png"
+alt="" title="SelectorModule" width="100%" class=
+"aligncenter size-full wp-image-1192" /></a></p>
+<p>The screenshot shows the module in action, in this case a result
+of a search for “Event”.</p>
+<p>This LOV integration is currently available in the
+<code>develop</code> branch only and will be released with the next
+OntoWiki version.</p>
+</div>
+</div>]]></content:encoded>
+  <description>This weeks presented feature is the new integration interface of the Linked Open Vocabularies (LOV) repository. LOV is a hand crafted repository of linked RDF/OWL vocabularies with well managed vocabulary meta data. We added a Vocabulary Selection module in order to allow searching and exploring of the LOV repository. This module allows for: Create a Knowledge Base directly from a search result by importing the content from the web (create model screen) Add the content of a specific vocabulary to an existing Knowledge Base (add data screen) Add namespace prefixes based on a LOV search (configure model screen) Search is ...</description>
+</item>
+<item rdf:about="http://www.w3.org/blog/SW/2013/09/11/json-ld-feature-freeze-and-call-for-implementation/">
+  <dc:creator>W3C Semantic Web News</dc:creator>
+  <dc:source>W3C Semantic Web News</dc:source>
+  <dc:relation>http://www.w3.org/2001/sw/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>The <a href="http://www.w3.org/2011/rdf-wg/">RDF Working
+Group</a> and the <a href="http://json-ld.org/">JSON-LD Community
+Group</a> published the Candidate Recommendation of <a href=
+"http://www.w3.org/TR/2013/CR-json-ld-20130910/">JSON-LD 1.0</a>,
+and <a href=
+"http://www.w3.org/TR/2013/CR-json-ld-api-20130910/">JSON-LD 1.0
+Processing Algorithms and API</a>. This signals the beginning of
+the call for implementations for JSON-LD 1.0.</p>
+<p>JSON-LD harmonizes the representation of Linked Data in JSON by
+describing a common JSON representation format for expressing
+directed graphs; mixing both Linked Data and non-Linked Data in a
+single document. The syntax is designed to not disturb already
+deployed systems running on JSON, but provide a smooth upgrade path
+from JSON to JSON-LD. It is primarily intended to be a way to use
+Linked Data in Web-based programming environments, to build
+interoperable Linked Data Web services, and to store Linked Data in
+JSON-based storage engines.</p>
+<p>The JSON-LD 1.0 specification describes the JSON-LD language in
+a way that is useful to authors. It also provides the core grammar
+of the language for implementers. The JSON-LD 1.0 Algorithms and
+API specification describes useful Algorithms for working with
+JSON-LD data. It also specifies an Application Programming
+Interface that can be used to transform JSON-LD documents in order
+to make them easier to work with in programming environments like
+JavaScript, Python, and Ruby.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-11T08:15:42Z</dc:date>
+  <title>JSON-LD feature freeze and call for implementation</title>
+  <link>http://www.w3.org/blog/SW/2013/09/11/json-ld-feature-freeze-and-call-for-implementation/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>The <a href="http://www.w3.org/2011/rdf-wg/">RDF Working
+Group</a> and the <a href="http://json-ld.org/">JSON-LD Community
+Group</a> published the Candidate Recommendation of <a href=
+"http://www.w3.org/TR/2013/CR-json-ld-20130910/">JSON-LD 1.0</a>,
+and <a href=
+"http://www.w3.org/TR/2013/CR-json-ld-api-20130910/">JSON-LD 1.0
+Processing Algorithms and API</a>. This signals the beginning of
+the call for implementations for JSON-LD 1.0.</p>
+<p>JSON-LD harmonizes the representation of Linked Data in JSON by
+describing a common JSON representation format for expressing
+directed graphs; mixing both Linked Data and non-Linked Data in a
+single document. The syntax is designed to not disturb already
+deployed systems running on JSON, but provide a smooth upgrade path
+from JSON to JSON-LD. It is primarily intended to be a way to use
+Linked Data in Web-based programming environments, to build
+interoperable Linked Data Web services, and to store Linked Data in
+JSON-based storage engines.</p>
+<p>The JSON-LD 1.0 specification describes the JSON-LD language in
+a way that is useful to authors. It also provides the core grammar
+of the language for implementers. The JSON-LD 1.0 Algorithms and
+API specification describes useful Algorithms for working with
+JSON-LD data. It also specifies an Application Programming
+Interface that can be used to transform JSON-LD documents in order
+to make them easier to work with in programming environments like
+JavaScript, Python, and Ruby.</p>
+</div>
+</div>]]></content:encoded>
+  <description>The RDF Working Group and the JSON-LD Community Group published the Candidate Recommendation of JSON-LD 1.0 , and JSON-LD 1.0 Processing Algorithms and API . This signals the beginning of the call for implementations for JSON-LD 1.0. JSON-LD harmonizes the representation of Linked Data in JSON by describing a common JSON representation format for expressing directed graphs; mixing both Linked Data and non-Linked Data in a single document. The syntax is designed to not disturb already deployed systems running on JSON, but provide a smooth upgrade path from JSON to JSON-LD. It is primarily intended to be a way to ...</description>
+</item>
+<item rdf:about="http://dublincore.org/news/2013/#dcmi-news-20130912-01">
+  <dc:creator>Dublin Core Metadata Initiative</dc:creator>
+  <dc:source>Dublin Core Metadata Initiative</dc:source>
+  <dc:relation>http://www.dublincore.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>2013-09-12, DCMI is very pleased to announce that <a href=
+"http://www.infocom.co.jp/das/index-e.html">Infocom Corporation</a>
+of Japan has renewed its Supporting Member status until 30 June
+2014. Please see the <a href=
+"/support/#supportingMember">Supporting Member</a> section on the
+membership page for more details. The <a href=
+"/support/#supportingMember">Supporting Member program</a> is open
+for all companies and organizations that want to support DCMI
+financially to continue its work to the benefit of the global
+audience.</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-10T23:59Z</dc:date>
+  <title>Infocom Corporation renews DCMI Supporting
+Membership</title>
+  <link>http://dublincore.org/news/2013/#dcmi-news-20130912-01</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>2013-09-12, DCMI is very pleased to announce that <a href=
+"http://www.infocom.co.jp/das/index-e.html">Infocom Corporation</a>
+of Japan has renewed its Supporting Member status until 30 June
+2014. Please see the <a href=
+"/support/#supportingMember">Supporting Member</a> section on the
+membership page for more details. The <a href=
+"/support/#supportingMember">Supporting Member program</a> is open
+for all companies and organizations that want to support DCMI
+financially to continue its work to the benefit of the global
+audience.</div>
+</div>]]></content:encoded>
+  <description>
+ 2013-09-12, DCMI is very pleased to announce that  Infocom Corporation 
+of Japan has renewed its Supporting Member status until 30 June
+2014. Please see the  Supporting Member  section on the
+membership page for more details. The  Supporting Member program  is open
+for all companies and organizations that want to support DCMI
+financially to continue its work to the benefit of the global
+audience. 
+</description>
+</item>
+<item rdf:about="http://blog.aksw.org/2013/ontowiki-feature-of-the-week-document-management/">
+  <dc:creator>AKSW Group - University of Leipzig</dc:creator>
+  <dc:source>AKSW Group - University of Leipzig</dc:source>
+  <dc:relation>http://blog.aksw.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>This weeks presented feature is the files extension available at
+<a href=
+"https://github.com/AKSW/files.ontowiki">https://github.com/AKSW/files.ontowiki</a></p>
+<p>An not so often requested feature of OntoWiki is the ability to
+not just talk about resources such as PDF documents and MP3 files,
+but also to manage these files inside OntoWiki. The files extension
+is exactly this. By enabling this extension, you can</p>
+<ul>
+<li>Upload and download any file to your wiki</li>
+<li>Annotate and explore uploaded files as any OntoWiki
+resource</li>
+<li>Attach a file to an existing resource</li>
+</ul>
+<p><a href=
+"http://blog.aksw.org/wp-content/uploads/2013/09/files.extension.png">
+<img src=
+"http://blog.aksw.org/wp-content/uploads/2013/09/files.extension-1024x412.png"
+alt="" title="files.extension" width="1024" height="412" class=
+"aligncenter size-large wp-image-1183" /></a></p>
+<p>This allows for use cases such as music database or bibliography
+management where your data is about concrete documents. In addition
+to that, this extension is useful if you already use the <a href=
+"https://github.com/AKSW/site.ontowiki">site extension</a> and just
+want to upload some multimedia for your site.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-08T20:11:33Z</dc:date>
+  <title>OntoWiki Feature of the Week: Document Management</title>
+  <link>http://blog.aksw.org/2013/ontowiki-feature-of-the-week-document-management/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>This weeks presented feature is the files extension available at
+<a href=
+"https://github.com/AKSW/files.ontowiki">https://github.com/AKSW/files.ontowiki</a></p>
+<p>An not so often requested feature of OntoWiki is the ability to
+not just talk about resources such as PDF documents and MP3 files,
+but also to manage these files inside OntoWiki. The files extension
+is exactly this. By enabling this extension, you can</p>
+<ul>
+<li>Upload and download any file to your wiki</li>
+<li>Annotate and explore uploaded files as any OntoWiki
+resource</li>
+<li>Attach a file to an existing resource</li>
+</ul>
+<p><a href=
+"http://blog.aksw.org/wp-content/uploads/2013/09/files.extension.png">
+<img src=
+"http://blog.aksw.org/wp-content/uploads/2013/09/files.extension-1024x412.png"
+alt="" title="files.extension" width="1024" height="412" class=
+"aligncenter size-large wp-image-1183" /></a></p>
+<p>This allows for use cases such as music database or bibliography
+management where your data is about concrete documents. In addition
+to that, this extension is useful if you already use the <a href=
+"https://github.com/AKSW/site.ontowiki">site extension</a> and just
+want to upload some multimedia for your site.</p>
+</div>
+</div>]]></content:encoded>
+  <description>This weeks presented feature is the files extension available at https://github.com/AKSW/files.ontowiki An not so often requested feature of OntoWiki is the ability to not just talk about resources such as PDF documents and MP3 files, but also to manage these files inside OntoWiki. The files extension is exactly this. By enabling this extension, you can Upload and download any file to your wiki Annotate and explore uploaded files as any OntoWiki resource Attach a file to an existing resource This allows for use cases such as music database or bibliography management where your data is about concrete documents. In addition ...</description>
+</item>
+<item rdf:about="http://chem-bla-ics.blogspot.com/2013/09/next-bioclipse-opentox-workshop-gig.html">
+  <dc:creator>Egon Willighagen</dc:creator>
+  <dc:source>chem-bla-ics by Egon Willighagen</dc:source>
+  <dc:relation>http://chem-bla-ics.blogspot.com/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div><a href="https://twitter.com/ola_spjuth">Ola</a> and I will be
+giving a <a href=
+"http://www.biomedcentral.com/1756-0500/4/487/">Bioclipse-OpenTox</a>
+workshop in Mainz on Monday 30 September, during the <a href=
+"http://www.opentox.org/meet/opentoxeu2013/">OpenTox EU 2013
+meeting</a>. Places are filling up quickly (really :), so <a href=
+"https://www.surveymonkey.com/s/OpenToxEU2013">sign up now</a> if
+you like to learn your way around in interactively accessing
+chemical liabilities.<br />
+<br />
+The focus will likely be on the graphical user <a href=
+"http://www.ncbi.nlm.nih.gov/pubmed/21774475">decision support
+interface</a>, so here's what you would be able to do with
+scripting:<br />
+<br />
+<div style="text-align: center;"><iframe frameborder="0" height=
+"356" marginheight="0" marginwidth="0" scrolling="no" src=
+"http://www.slideshare.net/slideshow/embed_code/13018178" style=
+"border-width: 1px 1px 0; border: 1px solid #CCC; margin-bottom: 5px;"
+width="427"></iframe></div>
+<div style="margin-bottom: 5px;">
+<div style="text-align: center;"><strong><a href=
+"https://www.slideshare.net/egonw/bioclipseopentox-demo" target=
+"_blank" title="Bioclipse-OpenTox demo">Bioclipse-OpenTox
+demo</a></strong> from <strong><a href=
+"http://www.slideshare.net/egonw" target="_blank">Egon
+Willighagen</a></strong></div>
+<div style="text-align: center;"><br /></div>
+<div style="text-align: left;">This workshop would also be great if
+you like to learn on how we use RDF for all of thise!</div>
+</div>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-08T19:56Z</dc:date>
+  <title>Next Bioclipse-OpenTox Workshop gig: Mainz, September
+30</title>
+  <link>http://chem-bla-ics.blogspot.com/2013/09/next-bioclipse-opentox-workshop-gig.html</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div><a href="https://twitter.com/ola_spjuth">Ola</a> and I will be
+giving a <a href=
+"http://www.biomedcentral.com/1756-0500/4/487/">Bioclipse-OpenTox</a>
+workshop in Mainz on Monday 30 September, during the <a href=
+"http://www.opentox.org/meet/opentoxeu2013/">OpenTox EU 2013
+meeting</a>. Places are filling up quickly (really :), so <a href=
+"https://www.surveymonkey.com/s/OpenToxEU2013">sign up now</a> if
+you like to learn your way around in interactively accessing
+chemical liabilities.<br />
+<br />
+The focus will likely be on the graphical user <a href=
+"http://www.ncbi.nlm.nih.gov/pubmed/21774475">decision support
+interface</a>, so here's what you would be able to do with
+scripting:<br />
+<br />
+<div style="text-align: center;"><iframe frameborder="0" height=
+"356" marginheight="0" marginwidth="0" scrolling="no" src=
+"http://www.slideshare.net/slideshow/embed_code/13018178" style=
+"border-width: 1px 1px 0; border: 1px solid #CCC; margin-bottom: 5px;"
+width="427"></iframe></div>
+<div style="margin-bottom: 5px;">
+<div style="text-align: center;"><strong><a href=
+"https://www.slideshare.net/egonw/bioclipseopentox-demo" target=
+"_blank" title="Bioclipse-OpenTox demo">Bioclipse-OpenTox
+demo</a></strong> from <strong><a href=
+"http://www.slideshare.net/egonw" target="_blank">Egon
+Willighagen</a></strong></div>
+<div style="text-align: center;"><br /></div>
+<div style="text-align: left;">This workshop would also be great if
+you like to learn on how we use RDF for all of thise!</div>
+</div>
+</div>
+</div>]]></content:encoded>
+  <description>
+  Ola  and I will be
+giving a  Bioclipse-OpenTox 
+workshop in Mainz on Monday 30 September, during the  OpenTox EU 2013
+meeting . Places are filling up quickly (really :), so  sign up now  if
+you like to learn your way around in interactively accessing
+chemical liabilities. 
+ 
+The focus will likely be on the graphical user  decision support
+interface , so here's what you would be able to do with
+scripting: 
+ 
+    
+ 
+   Bioclipse-OpenTox
+demo   from   Egon
+Willighagen   
+   
+ This workshop would also be great if
+you like to learn on how we use RDF for all of thise! 
+ 
+ 
+</description>
+</item>
+<item rdf:about="http://www.w3.org/blog/SW/2013/09/06/two-last-call-working-drafts-published-by-the-rdf-working-group-n-triples-and-n-quads/">
+  <dc:creator>W3C Semantic Web News</dc:creator>
+  <dc:source>W3C Semantic Web News</dc:source>
+  <dc:relation>http://www.w3.org/2001/sw/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>The <a href="http://www.w3.org/2011/rdf-wg/">W3C RDF Working
+Group</a> has published two Last Call Working Drafts to line based,
+plain text formats to encode RDF Graphs and RDF Datasets: <a href=
+"http://www.w3.org/TR/2013/WD-n-triples-20130905/">N-Triples</a>
+and <a href=
+"http://www.w3.org/TR/2013/WD-n-quads-20130905/">N-Quads</a>,
+respectively. Comments are expected before the 14th of October.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-06T16:02:31Z</dc:date>
+  <title>Two Last Call Working Drafts published by the RDF Working
+Group: n-triples and n-quads</title>
+  <link>http://www.w3.org/blog/SW/2013/09/06/two-last-call-working-drafts-published-by-the-rdf-working-group-n-triples-and-n-quads/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>The <a href="http://www.w3.org/2011/rdf-wg/">W3C RDF Working
+Group</a> has published two Last Call Working Drafts to line based,
+plain text formats to encode RDF Graphs and RDF Datasets: <a href=
+"http://www.w3.org/TR/2013/WD-n-triples-20130905/">N-Triples</a>
+and <a href=
+"http://www.w3.org/TR/2013/WD-n-quads-20130905/">N-Quads</a>,
+respectively. Comments are expected before the 14th of October.</p>
+</div>
+</div>]]></content:encoded>
+  <description>
+ 
+ The  W3C RDF Working
+Group  has published two Last Call Working Drafts to line based,
+plain text formats to encode RDF Graphs and RDF Datasets:  N-Triples 
+and  N-Quads ,
+respectively. Comments are expected before the 14th of October. 
+ 
+</description>
+</item>
+<item rdf:about="http://johngoodwin225.wordpress.com/2013/09/06/ordnance-survey-names-gazetteer-illustrative-data/">
+  <dc:creator>John Goodwin</dc:creator>
+  <dc:source>John Goodwin</dc:source>
+  <dc:relation>http://johngoodwin225.wordpress.com/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>On behalf of my employer:</p>
+<p>The growth and development of new, web and mobile applications
+demands the development of new data to enable effective location
+searching. In response we have published illustrative data for an
+updated gazetteer of names. We’d love it if you would take a look
+and provide us with your feedback. We want to make sure that the
+new product meets your needs. Access the data through 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-06T11:53:45Z</dc:date>
+  <title>Ordnance Survey Names Gazetteer – Illustrative data</title>
+  <link>http://johngoodwin225.wordpress.com/2013/09/06/ordnance-survey-names-gazetteer-illustrative-data/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>On behalf of my employer:</p>
+<p>The growth and development of new, web and mobile applications
+demands the development of new data to enable effective location
+searching. In response we have published illustrative data for an
+updated gazetteer of names. We’d love it if you would take a look
+and provide us with your feedback. We want to make sure that the
+new product meets your needs. Access the data through 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</div>]]></content:encoded>
+  <description>
+ 
+ On behalf of my employer: 
+ The growth and development of new, web and mobile applications
+demands the development of new data to enable effective location
+searching. In response we have published illustrative data for an
+updated gazetteer of names. We’d love it if you would take a look
+and provide us with your feedback. We want to make sure that the
+new product meets your needs. Access the data through 
+  
+  
+ 
+</description>
+</item>
+<item rdf:about="http://blog.semantic-web.at/2013/09/06/bruno-eugster-how-to-bring-already-pre-filtered-information-to-the-employees-desk/">
+  <dc:creator>Semantic Web Company (Austria)</dc:creator>
+  <dc:source>Semantic Puzzle by Semantic Web Company (Austria)</dc:source>
+  <dc:relation>http://blog.semantic-web.at/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<div id="yass_top_edge_dummy" style=
+"width: 1px; height: 1px; padding: 0px; margin: -11px 0px 0px; border-width: 0px; display: block;">
+</div>
+<div id="yass_top_edge" style=
+"background-image: url('chrome://yass/content/edgebgtop.png'); background-attachment: scroll; background-position: center bottom; padding: 0px; margin: 0px 0px 10px -283px; border-width: 0px; height: 0px; display: block; width: 1px;">
+</div>
+<p><img class="alignleft size-full wp-image-3373" alt=
+"0adf38aa6.11669486,3" src=
+"http://blog.semantic-web.at/wp-content/uploads/2013/09/0adf38aa6.116694863.jpg"
+width="140" height="185" />In recent years, PoolParty team has not
+only worked on the major release <a href=
+"http://www.poolparty.biz/say-hello-to-poolparty-4/">PoolParty
+4</a>. It also developed a network of experts as its partner
+organizations, which deliver services for system integration (e.g.
+SharePoint, FirstSpirit, IntraFind etc.), taxonomy and thesaurus
+management, and to develop infrastructure for the corporate
+semantic web. <a href="http://www.dti.ch/index.php/en/" target=
+"_blank">DTI AG</a> is one of those partners which are acting
+globally as an interface between PoolParty team and the customers.
+Andreas Blumauer talked with <strong><a href=
+"http://www.linkedin.com/pub/bruno-eugster/29/335/b43" target=
+"_blank">Bruno Eugster</a>, CEO at DTI AG, based in
+Switzerland</strong>.</p>
+<p><strong>Blumauer</strong>: How do semantic technologies fit into
+your overall strategy, do you believe they are ‘the next big
+thing’?</p>
+<p><strong>Eugster</strong>: DTI AG focuses on projects to improve
+information access and search, where semantic technologies play an
+ever important role. In this respect, semantic technologies are one
+of the next “big things”. Only if computers will understand crawled
+content, as well as the needs of the information seeker, the user
+will be able to get the right information in time. This is the key
+challenge which semantic technology will help to meet.</p>
+<p><strong>Blumauer</strong>: Which kind of projects in the field
+of semantic technologies do you mainly support? What are the
+business cases in such projects?</p>
+<p><strong>Eugster</strong>: Everywhere where information workers
+drive customer’s business, semantic technologies are of great help
+to get precise hits in time. This is the case for DTI’s projects in
+the sectors of enterprise search, knowledge management, eDiscovery,
+legal investigations as well as in government, pharma, finance, and
+insurance industry.</p>
+<p><strong>Blumauer</strong>: How do your customers benefit from
+PoolParty technologies? Why did you decide to develop a partnership
+with Semantic Web Company?</p>
+<p><strong>Eugster</strong>: In our days, where loads of
+information dislocated in countless data silos, it’s enormously
+important to bring already pre-filtered information to the
+employee’s desk. As each employee has it’s own requirements to
+given information – depending on his role and job. PoolParty allows
+to enrich the information with these contexts. At DTI AG,&#160; we
+have found a dynamic and innovative technology partner with
+PoolParty, to achieve customer demands in information access and
+search.</p>
+<p><strong>ABOUT</strong></p>
+<p>Bruno Eugster is founder of DTI AG which is an independent
+solution provider in the field of intelligent information search
+and retrieval. Their target markets are media, financial, life
+sciences and government.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+<a class="zemanta-pixie-a" title="Enhanced by Zemanta" href=
+"http://www.zemanta.com/?px"><img class="zemanta-pixie-img" style=
+"border: none; float: right;" alt="Enhanced by Zemanta" src=
+"http://img.zemanta.com/zemified_e.png?x-id=78c7cf65-328d-451a-8a9f-05cd4061de86" /></a></div>
+<div id="yass_bottom_edge" style=
+"background-image: url('chrome://yass/content/edgebgbot.png'); background-position: 0px 0px; position: absolute; margin: 0px; padding: 0px; border-width: 0px; height: 0px; left: 0px; top: 1063px; width: 100%; display: block;">
+</div>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-06T11:53:38Z</dc:date>
+  <title>Bruno Eugster: ‘How to bring already pre-filtered
+information to the employee’s desk’</title>
+  <link>http://blog.semantic-web.at/2013/09/06/bruno-eugster-how-to-bring-already-pre-filtered-information-to-the-employees-desk/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<div id="yass_top_edge_dummy" style=
+"width: 1px; height: 1px; padding: 0px; margin: -11px 0px 0px; border-width: 0px; display: block;">
+</div>
+<div id="yass_top_edge" style=
+"background-image: url('chrome://yass/content/edgebgtop.png'); background-attachment: scroll; background-position: center bottom; padding: 0px; margin: 0px 0px 10px -283px; border-width: 0px; height: 0px; display: block; width: 1px;">
+</div>
+<p><img class="alignleft size-full wp-image-3373" alt=
+"0adf38aa6.11669486,3" src=
+"http://blog.semantic-web.at/wp-content/uploads/2013/09/0adf38aa6.116694863.jpg"
+width="140" height="185" />In recent years, PoolParty team has not
+only worked on the major release <a href=
+"http://www.poolparty.biz/say-hello-to-poolparty-4/">PoolParty
+4</a>. It also developed a network of experts as its partner
+organizations, which deliver services for system integration (e.g.
+SharePoint, FirstSpirit, IntraFind etc.), taxonomy and thesaurus
+management, and to develop infrastructure for the corporate
+semantic web. <a href="http://www.dti.ch/index.php/en/" target=
+"_blank">DTI AG</a> is one of those partners which are acting
+globally as an interface between PoolParty team and the customers.
+Andreas Blumauer talked with <strong><a href=
+"http://www.linkedin.com/pub/bruno-eugster/29/335/b43" target=
+"_blank">Bruno Eugster</a>, CEO at DTI AG, based in
+Switzerland</strong>.</p>
+<p><strong>Blumauer</strong>: How do semantic technologies fit into
+your overall strategy, do you believe they are ‘the next big
+thing’?</p>
+<p><strong>Eugster</strong>: DTI AG focuses on projects to improve
+information access and search, where semantic technologies play an
+ever important role. In this respect, semantic technologies are one
+of the next “big things”. Only if computers will understand crawled
+content, as well as the needs of the information seeker, the user
+will be able to get the right information in time. This is the key
+challenge which semantic technology will help to meet.</p>
+<p><strong>Blumauer</strong>: Which kind of projects in the field
+of semantic technologies do you mainly support? What are the
+business cases in such projects?</p>
+<p><strong>Eugster</strong>: Everywhere where information workers
+drive customer’s business, semantic technologies are of great help
+to get precise hits in time. This is the case for DTI’s projects in
+the sectors of enterprise search, knowledge management, eDiscovery,
+legal investigations as well as in government, pharma, finance, and
+insurance industry.</p>
+<p><strong>Blumauer</strong>: How do your customers benefit from
+PoolParty technologies? Why did you decide to develop a partnership
+with Semantic Web Company?</p>
+<p><strong>Eugster</strong>: In our days, where loads of
+information dislocated in countless data silos, it’s enormously
+important to bring already pre-filtered information to the
+employee’s desk. As each employee has it’s own requirements to
+given information – depending on his role and job. PoolParty allows
+to enrich the information with these contexts. At DTI AG,&#160; we
+have found a dynamic and innovative technology partner with
+PoolParty, to achieve customer demands in information access and
+search.</p>
+<p><strong>ABOUT</strong></p>
+<p>Bruno Eugster is founder of DTI AG which is an independent
+solution provider in the field of intelligent information search
+and retrieval. Their target markets are media, financial, life
+sciences and government.</p>
+<div class="zemanta-pixie" style="margin-top: 10px; height: 15px;">
+<a class="zemanta-pixie-a" title="Enhanced by Zemanta" href=
+"http://www.zemanta.com/?px"><img class="zemanta-pixie-img" style=
+"border: none; float: right;" alt="Enhanced by Zemanta" src=
+"http://img.zemanta.com/zemified_e.png?x-id=78c7cf65-328d-451a-8a9f-05cd4061de86" /></a></div>
+<div id="yass_bottom_edge" style=
+"background-image: url('chrome://yass/content/edgebgbot.png'); background-position: 0px 0px; position: absolute; margin: 0px; padding: 0px; border-width: 0px; height: 0px; left: 0px; top: 1063px; width: 100%; display: block;">
+</div>
+</div>
+</div>]]></content:encoded>
+  <description>In recent years, PoolParty team has not only worked on the major release PoolParty 4 . It also developed a network of experts as its partner organizations, which deliver services for system integration (e.g. SharePoint, FirstSpirit, IntraFind etc.), taxonomy and thesaurus management, and to develop infrastructure for the corporate semantic web. DTI AG is one of those partners which are acting globally as an interface between PoolParty team and the customers. Andreas Blumauer talked with Bruno Eugster , CEO at DTI AG, based in Switzerland . Blumauer : How do semantic technologies fit into your overall strategy, do you believe ...</description>
+</item>
+<item rdf:about="http://johngoodwin225.wordpress.com/2013/09/01/interview-in-odbms-org/">
+  <dc:creator>John Goodwin</dc:creator>
+  <dc:source>John Goodwin</dc:source>
+  <dc:relation>http://johngoodwin225.wordpress.com/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>I did a recent interview with my friend 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-01T15:55:31Z</dc:date>
+  <title>Interview in ODBMS.org</title>
+  <link>http://johngoodwin225.wordpress.com/2013/09/01/interview-in-odbms-org/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>I did a recent interview with my friend 
+<!-- feeds.wordpress img removed by chumpologica --> 
+<!-- stats.wordpress img removed by chumpologica --></p>
+</div>
+</div>]]></content:encoded>
+  <description>
+ 
+ I did a recent interview with my friend 
+  
+  
+ 
+</description>
+</item>
+<item rdf:about="http://www.w3.org/community/rww/2013/08/31/read-write-web-monthly-open-thread-august-2013/">
+  <dc:creator>W3C Read Write Web Community Group</dc:creator>
+  <dc:source>W3C Read Write Web Community Group Blog</dc:source>
+  <dc:relation>http://www.w3.org/community/rww/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<h2><span style="color: #0000ff">Summary</span></h2>
+<p>This month marks the two year anniversary of the RWW Community
+Group.&#160; A big thank you to everyone that has participated so
+far, some great progress, but still lots more to be done, in order
+to realize the full potential of the web as a decentralized read /
+write space.</p>
+<p>In linked data the <a href="http://www.w3.org/2010/02/rdfa/"
+rel="external nofollow">RDFa Working Group</a> published three RDFa
+Recommendations. (<a href=
+"http://www.w3.org/TR/2013/REC-html-rdfa-20130822/" rel=
+"external nofollow">HTML+RDFa 1.1</a>, <a href=
+"http://www.w3.org/TR/2013/REC-rdfa-core-20130822/" rel=
+"external nofollow">RDFa Core 1.1</a>&#160;and&#160;<a href=
+"http://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/" rel=
+"external nofollow">XHTML+RDFa 1.1</a>) RDFa lets authors put
+machine-readable data in HTML documents. Using RDFa, authors may
+turn their existing human-visible text and links into
+machine-readable data without repeating content.</p>
+<p>Andrei Sambra has released a personal cloud computing solution
+<a href="https://rww.io" rel="external nofollow">rww.io</a>. More
+protocols have been discussed on our mailing list, including access
+control, authentication and the Linked Data Platform.</p>
+<p><img src=
+"https://www.w3.org/community/rww/wiki/images/f/fe/Rww-logo-001.jpg"
+alt="" width="200" height="200" /></p>
+<h3><span style="color: #0000ff">Communications and
+Outreach</span></h3>
+<p>The social web business group met this month in San Francisco,
+with positive follow on discussions about the possibility of
+forming a social web Working Group in conjunction with the
+OpenSocial Foundation.&#160; This may be helpful in creating a
+truly decentralized social app eco system for the Web itself.&#160;
+Looking forward to further discussions!</p>
+<p><a><img src=
+"http://www.w3.org/community/rww/files/2012/06/rdf.png" alt=""
+width="106" height="109" /></a></p>
+<h3><span style="color: #0000ff">Community Group</span></h3>
+<p>The community group announced the release of <a href=
+"https://rww.io" rel="external nofollow">rww.io</a> a great
+solution for personal clouds using read and write standards for
+identity, authentication and access control.&#160; Already there
+have been a few patches submitted, in addition to make it compliant
+with the upcoming Linked Data Platform standard (LDP).</p>
+<p>There has been <a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/0030.html"
+rel="external nofollow">discussion</a> on access control, in
+particular, a rel type of “meta” or “acl” to link to a file that
+contains meta data for who can read, write, control or append to
+various documents.&#160; There has also been an example of <a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/0028.html"
+rel="external nofollow">Delegated Protected Resource Access
+Authorization</a></p>
+<p><a href=
+"http://www.w3.org/community/rww/files/2013/08/openlinklogo_wstrap_2008_no_motto.png"
+rel="external nofollow"><img class=
+"alignnone size-medium wp-image-311" src=
+"http://www.w3.org/community/rww/files/2013/08/openlinklogo_wstrap_2008_no_motto-300x76.png"
+alt="" width="300" height="76" /></a></p>
+<h3><span style="color: #0000ff">Applications</span></h3>
+<p>OpenLink software continues to lead the way with the release of
+<a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/0013.html"
+rel="external nofollow">Virtuoso Open-Source Edition
+v7.0.0</a>.&#160; There was a post showing how to <a href=
+"http://www.w3.org/community/rww/2013/08/15/distributed-microblogging-with-rww-io-and-tabulator/"
+rel="external nofollow">use rww.io and tabulator to achieve
+distributed microblogging</a> and some demos by Kingsley showing
+several <a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/thread.html"
+rel="external nofollow">exercises</a> in ‘dogfooding’ access
+controlled read / write spaces.</p>
+<p><a href=
+"http://www.w3.org/community/rww/files/2013/08/findme.png" rel=
+"external nofollow"><img class="alignnone size-medium wp-image-312"
+src=
+"http://www.w3.org/community/rww/files/2013/08/findme-300x170.png"
+alt="" width="300" height="170" /></a></p>
+<h3><span style="color: #0000ff">Last but not least…</span></h3>
+<p>More great work from Andrei with a geo location app for the
+rww.io platform, called <a href="https://github.com/deiu/findMyLoc"
+rel="external nofollow">FindMyLoc</a>.&#160; The app allows you to
+share your location with your friends using our own commodity
+storage, and in a privacy aware way.</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-31T18:11:40Z</dc:date>
+  <title>Read Write Web — Monthly Open Thread — (August 2013)</title>
+  <link>http://www.w3.org/community/rww/2013/08/31/read-write-web-monthly-open-thread-august-2013/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<h2><span style="color: #0000ff">Summary</span></h2>
+<p>This month marks the two year anniversary of the RWW Community
+Group.&#160; A big thank you to everyone that has participated so
+far, some great progress, but still lots more to be done, in order
+to realize the full potential of the web as a decentralized read /
+write space.</p>
+<p>In linked data the <a href="http://www.w3.org/2010/02/rdfa/"
+rel="external nofollow">RDFa Working Group</a> published three RDFa
+Recommendations. (<a href=
+"http://www.w3.org/TR/2013/REC-html-rdfa-20130822/" rel=
+"external nofollow">HTML+RDFa 1.1</a>, <a href=
+"http://www.w3.org/TR/2013/REC-rdfa-core-20130822/" rel=
+"external nofollow">RDFa Core 1.1</a>&#160;and&#160;<a href=
+"http://www.w3.org/TR/2013/REC-xhtml-rdfa-20130822/" rel=
+"external nofollow">XHTML+RDFa 1.1</a>) RDFa lets authors put
+machine-readable data in HTML documents. Using RDFa, authors may
+turn their existing human-visible text and links into
+machine-readable data without repeating content.</p>
+<p>Andrei Sambra has released a personal cloud computing solution
+<a href="https://rww.io" rel="external nofollow">rww.io</a>. More
+protocols have been discussed on our mailing list, including access
+control, authentication and the Linked Data Platform.</p>
+<p><img src=
+"https://www.w3.org/community/rww/wiki/images/f/fe/Rww-logo-001.jpg"
+alt="" width="200" height="200" /></p>
+<h3><span style="color: #0000ff">Communications and
+Outreach</span></h3>
+<p>The social web business group met this month in San Francisco,
+with positive follow on discussions about the possibility of
+forming a social web Working Group in conjunction with the
+OpenSocial Foundation.&#160; This may be helpful in creating a
+truly decentralized social app eco system for the Web itself.&#160;
+Looking forward to further discussions!</p>
+<p><a><img src=
+"http://www.w3.org/community/rww/files/2012/06/rdf.png" alt=""
+width="106" height="109" /></a></p>
+<h3><span style="color: #0000ff">Community Group</span></h3>
+<p>The community group announced the release of <a href=
+"https://rww.io" rel="external nofollow">rww.io</a> a great
+solution for personal clouds using read and write standards for
+identity, authentication and access control.&#160; Already there
+have been a few patches submitted, in addition to make it compliant
+with the upcoming Linked Data Platform standard (LDP).</p>
+<p>There has been <a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/0030.html"
+rel="external nofollow">discussion</a> on access control, in
+particular, a rel type of “meta” or “acl” to link to a file that
+contains meta data for who can read, write, control or append to
+various documents.&#160; There has also been an example of <a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/0028.html"
+rel="external nofollow">Delegated Protected Resource Access
+Authorization</a></p>
+<p><a href=
+"http://www.w3.org/community/rww/files/2013/08/openlinklogo_wstrap_2008_no_motto.png"
+rel="external nofollow"><img class=
+"alignnone size-medium wp-image-311" src=
+"http://www.w3.org/community/rww/files/2013/08/openlinklogo_wstrap_2008_no_motto-300x76.png"
+alt="" width="300" height="76" /></a></p>
+<h3><span style="color: #0000ff">Applications</span></h3>
+<p>OpenLink software continues to lead the way with the release of
+<a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/0013.html"
+rel="external nofollow">Virtuoso Open-Source Edition
+v7.0.0</a>.&#160; There was a post showing how to <a href=
+"http://www.w3.org/community/rww/2013/08/15/distributed-microblogging-with-rww-io-and-tabulator/"
+rel="external nofollow">use rww.io and tabulator to achieve
+distributed microblogging</a> and some demos by Kingsley showing
+several <a href=
+"http://lists.w3.org/Archives/Public/public-rww/2013Aug/thread.html"
+rel="external nofollow">exercises</a> in ‘dogfooding’ access
+controlled read / write spaces.</p>
+<p><a href=
+"http://www.w3.org/community/rww/files/2013/08/findme.png" rel=
+"external nofollow"><img class="alignnone size-medium wp-image-312"
+src=
+"http://www.w3.org/community/rww/files/2013/08/findme-300x170.png"
+alt="" width="300" height="170" /></a></p>
+<h3><span style="color: #0000ff">Last but not least…</span></h3>
+<p>More great work from Andrei with a geo location app for the
+rww.io platform, called <a href="https://github.com/deiu/findMyLoc"
+rel="external nofollow">FindMyLoc</a>.&#160; The app allows you to
+share your location with your friends using our own commodity
+storage, and in a privacy aware way.</p>
+</div>
+</div>]]></content:encoded>
+  <description>Summary This month marks the two year anniversary of the RWW Community Group.&amp;#160; A big thank you to everyone that has participated so far, some great progress, but still lots more to be done, in order to realize the full potential of the web as a decentralized read / write space. In linked data the RDFa Working Group published three RDFa Recommendations. ( HTML+RDFa 1.1 , RDFa Core 1.1 &amp;#160;and&amp;#160; XHTML+RDFa 1.1 ) RDFa lets authors put machine-readable data in HTML documents. Using RDFa, authors may turn their existing human-visible text and links into machine-readable data without repeating content. Andrei ...</description>
+</item>
+<item rdf:about="http://chem-bla-ics.blogspot.com/2013/08/the-dutch-dataverse-network-host-for.html">
+  <dc:creator>Egon Willighagen</dc:creator>
+  <dc:source>chem-bla-ics by Egon Willighagen</dc:source>
+  <dc:relation>http://chem-bla-ics.blogspot.com/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>Last Thursday, there was a <a href=
+"https://twitter.com/UM_Library">UM library</a> network drink. And
+as I see a library where knowledge is found, and libraries still
+rarely think of knowledge as ever being able to be stored outside
+books and papers, I was happy to see the library promoting the
+<a href="https://www.dataverse.nl/dvn/">Dutch Dataverse
+Network</a>. So, I had to try it, and see if it fulfilled my basic
+needs:<br />
+<br />
+<ol>
+<li>shows under what conditions people can download, modify, and
+redistribute data;</li>
+<li>has a high visibility on the web; and</li>
+<li>it is <a href="http://thedata.org/">open source</a>&#160;and
+developed by <a href=
+"https://twitter.com/thedataorg">@thedataorg</a>.</li>
+</ol>
+<div>And it does: and here is the v13.5 data behind <a href=
+"http://www.jcheminf.com/content/5/1/23">the ChEMBL-RDF
+paper</a>&#160;(which you can also query via <a href=
+"http://rdf.farmbio.uu.se/chembl/sparql">this SPARQL end point</a>
+at <a href="https://twitter.com/UU_University">Uppsala
+University</a>):</div>
+<div><br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href=
+"http://2.bp.blogspot.com/-I1nrjXk2GTE/UiHbhetNB7I/AAAAAAAACA4/S_FmfsI0Sqw/s1600/dvn.png"
+style="margin-left: 1em; margin-right: 1em;"><img border="0"
+height="245" src=
+"http://2.bp.blogspot.com/-I1nrjXk2GTE/UiHbhetNB7I/AAAAAAAACA4/S_FmfsI0Sqw/s400/dvn.png"
+width="400" alt="" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">Now,
+<a href="https://twitter.com/Chris_Evelo">Chris Evelo</a> wondered
+about the purpose of this. Can we import the data in analysis
+platforms? How does it related to efforts our group is involved in,
+like <a href="http://dbnp.org/">dbNP</a> etc?</div>
+<div><br /></div>
+<div>Well, my primary reasons for doing the above was to test the
+system and to serve more than 700MB of RDF triples. Thus, with the
+testing of the system done, the question now is, can we use it in
+data analysis platforms. I found <a href=
+"http://cran.r-project.org/web/packages/dvn/">this R package</a>
+by&#160;<span style="background-color: white;"><a href=
+"http://thomasleeper.com/software.html">Thomas J. Leeper</a>. It
+has several methods, some of which are given in the below example
+code:</span></div>
+<div><span style="background-color: white;"><br /></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">search =
+dvSearch(</span></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+list(authorName="willighagen")</span></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">)</span></span></div>
+<div><span style="background-color: white;"><br /></span></div>
+<div><span style="background-color: white;">This shows us the
+handle of my one and currently only data set,&#160;</span><a href=
+"http://hdl.handle.net/10411/10279">hdl:10411/10279</a>. We need
+some further information, such as the formats of the records
+metadata:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">formats =
+dvMetadataFormats(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+search$objectid[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>When we combine this, we can retrieve the metadata:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">metadata =
+dvMetadata(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+search$objectid[1],</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+format.type=formats$formatName[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>Now, the package then has a&#160;dvExtractFileIds() method to
+extract the file names. But the metadata for my record is not
+compatible, and you need this code instead (and this has likely to
+do with me not knowing the Dataverse system in enough detail to use
+it properly):</div>
+<div><br /></div>
+<br />
+<div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">extractOtherMatFileIds
+= function (xml)&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">{</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; nodes
+&lt;- xmlChildren(xmlChildren(xmlParse(xml))$codeBook)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; dscrs
+&lt;- nodes[names(nodes) == "otherMat"]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; d
+&lt;- data.frame(matrix(nrow = length(dscrs), ncol =
+4))&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+names(d) &lt;- c("fileName", "fileId", "level", "URI")</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; for
+(i in 1:length(dscrs)) {</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; attrs &lt;- xmlAttrs(dscrs[[i]])</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$fileName[i] &lt;-
+xmlValue(xmlChildren(dscrs[[i]])$labl)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$level[i] &lt;- attrs[names(attrs) ==
+"level"]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$URI[i] &lt;- attrs[names(attrs) ==
+"URI"]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$fileId[i] &lt;- strsplit(d$URI[i],
+"fileId=")[[1]][2]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+}</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+return(d)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">}</span></div>
+</div>
+<div><br /></div>
+<div>So that, similar to <a href=
+"http://cran.r-project.org/web/packages/dvn/dvn.pdf">the dvn
+package help PDF</a>, we can continue with:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">files =
+extractOtherMatFileIds(metadata)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">info &lt;-
+dvDownloadInfo(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$fileId[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<br />
+<div>We are now ready to download the data, but, except for
+<a href="https://github.com/leeper/dvn/pull/4">a small bug in the
+package</a>, we run into a wall:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">data &lt;-
+dvDownload(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;&#160;dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$fileId[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>We we do not get access, and get this error instead:</div>
+<div><br /></div>
+<br />
+<div><span style=
+"font-family: Courier New, Courier, monospace;">Error in
+dvDownload(dv = "https://www.dataverse.nl/dvn/", files$fileId[1])
+:&#160;</span></div>
+<div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; Terms
+of Use apply.</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">Data cannot be
+accessed directly...try using URI from
+dvExtractFileIds(dvMetadata())</span></div>
+</div>
+<div><br /></div>
+<br />
+<div>This is despite me marking the data as Public. I do not know
+the reason yet, but it could have to do with setting the CC-BY-SA
+license? They indeed do apply, but that doesn't mean an anonymous
+user cannot download it. The error seems to originate from info in
+here:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">dvQuery(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; verb =
+"downloadInfo",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; query =
+files$fileId[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>This code is part of the download function, which returns a
+XML snippet with this part:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&lt;accessRestrictions
+granted="false"&gt;</span></div>
+<div><br /></div>
+<div>The workaround suggested in the error message is to just use
+the URI, using default R functionality:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">download.file(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$URI[1],</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$fileName[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>However, this does not return the data file, but a HTML page
+that allows one to accept the terms of use. Of course, we can use
+the browser option in several of the methods, but any user
+interaction makes downloading data in a workflow setting
+unrealistic.</div>
+<div><br /></div>
+<div>Now, it should be able to automate that, not? We should be
+able to instruct the dvn package and the Dataverse network to
+always accept Creative Commons licenses, right?</div>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-31T13:17Z</dc:date>
+  <title>The Dutch Dataverse Network: a host for the ChEMBL-RDF v13.5
+data, and some thoughts in workflow integration</title>
+  <link>http://chem-bla-ics.blogspot.com/2013/08/the-dutch-dataverse-network-host-for.html</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>Last Thursday, there was a <a href=
+"https://twitter.com/UM_Library">UM library</a> network drink. And
+as I see a library where knowledge is found, and libraries still
+rarely think of knowledge as ever being able to be stored outside
+books and papers, I was happy to see the library promoting the
+<a href="https://www.dataverse.nl/dvn/">Dutch Dataverse
+Network</a>. So, I had to try it, and see if it fulfilled my basic
+needs:<br />
+<br />
+<ol>
+<li>shows under what conditions people can download, modify, and
+redistribute data;</li>
+<li>has a high visibility on the web; and</li>
+<li>it is <a href="http://thedata.org/">open source</a>&#160;and
+developed by <a href=
+"https://twitter.com/thedataorg">@thedataorg</a>.</li>
+</ol>
+<div>And it does: and here is the v13.5 data behind <a href=
+"http://www.jcheminf.com/content/5/1/23">the ChEMBL-RDF
+paper</a>&#160;(which you can also query via <a href=
+"http://rdf.farmbio.uu.se/chembl/sparql">this SPARQL end point</a>
+at <a href="https://twitter.com/UU_University">Uppsala
+University</a>):</div>
+<div><br /></div>
+<div class="separator" style="clear: both; text-align: center;">
+<a href=
+"http://2.bp.blogspot.com/-I1nrjXk2GTE/UiHbhetNB7I/AAAAAAAACA4/S_FmfsI0Sqw/s1600/dvn.png"
+style="margin-left: 1em; margin-right: 1em;"><img border="0"
+height="245" src=
+"http://2.bp.blogspot.com/-I1nrjXk2GTE/UiHbhetNB7I/AAAAAAAACA4/S_FmfsI0Sqw/s400/dvn.png"
+width="400" alt="" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: left;">Now,
+<a href="https://twitter.com/Chris_Evelo">Chris Evelo</a> wondered
+about the purpose of this. Can we import the data in analysis
+platforms? How does it related to efforts our group is involved in,
+like <a href="http://dbnp.org/">dbNP</a> etc?</div>
+<div><br /></div>
+<div>Well, my primary reasons for doing the above was to test the
+system and to serve more than 700MB of RDF triples. Thus, with the
+testing of the system done, the question now is, can we use it in
+data analysis platforms. I found <a href=
+"http://cran.r-project.org/web/packages/dvn/">this R package</a>
+by&#160;<span style="background-color: white;"><a href=
+"http://thomasleeper.com/software.html">Thomas J. Leeper</a>. It
+has several methods, some of which are given in the below example
+code:</span></div>
+<div><span style="background-color: white;"><br /></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">search =
+dvSearch(</span></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+list(authorName="willighagen")</span></span></div>
+<div><span style="background-color: white;"><span style=
+"font-family: Courier New, Courier, monospace;">)</span></span></div>
+<div><span style="background-color: white;"><br /></span></div>
+<div><span style="background-color: white;">This shows us the
+handle of my one and currently only data set,&#160;</span><a href=
+"http://hdl.handle.net/10411/10279">hdl:10411/10279</a>. We need
+some further information, such as the formats of the records
+metadata:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">formats =
+dvMetadataFormats(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+search$objectid[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>When we combine this, we can retrieve the metadata:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">metadata =
+dvMetadata(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+search$objectid[1],</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+format.type=formats$formatName[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>Now, the package then has a&#160;dvExtractFileIds() method to
+extract the file names. But the metadata for my record is not
+compatible, and you need this code instead (and this has likely to
+do with me not knowing the Dataverse system in enough detail to use
+it properly):</div>
+<div><br /></div>
+<br />
+<div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">extractOtherMatFileIds
+= function (xml)&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">{</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; nodes
+&lt;- xmlChildren(xmlChildren(xmlParse(xml))$codeBook)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; dscrs
+&lt;- nodes[names(nodes) == "otherMat"]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; d
+&lt;- data.frame(matrix(nrow = length(dscrs), ncol =
+4))&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+names(d) &lt;- c("fileName", "fileId", "level", "URI")</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; for
+(i in 1:length(dscrs)) {</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; attrs &lt;- xmlAttrs(dscrs[[i]])</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$fileName[i] &lt;-
+xmlValue(xmlChildren(dscrs[[i]])$labl)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$level[i] &lt;- attrs[names(attrs) ==
+"level"]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$URI[i] &lt;- attrs[names(attrs) ==
+"URI"]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+&#160; &#160; d$fileId[i] &lt;- strsplit(d$URI[i],
+"fileId=")[[1]][2]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+}</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160;
+return(d)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">}</span></div>
+</div>
+<div><br /></div>
+<div>So that, similar to <a href=
+"http://cran.r-project.org/web/packages/dvn/dvn.pdf">the dvn
+package help PDF</a>, we can continue with:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">files =
+extractOtherMatFileIds(metadata)</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">info &lt;-
+dvDownloadInfo(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$fileId[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<br />
+<div>We are now ready to download the data, but, except for
+<a href="https://github.com/leeper/dvn/pull/4">a small bug in the
+package</a>, we run into a wall:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">data &lt;-
+dvDownload(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;&#160;dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$fileId[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>We we do not get access, and get this error instead:</div>
+<div><br /></div>
+<br />
+<div><span style=
+"font-family: Courier New, Courier, monospace;">Error in
+dvDownload(dv = "https://www.dataverse.nl/dvn/", files$fileId[1])
+:&#160;</span></div>
+<div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; &#160; Terms
+of Use apply.</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;&#160;</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">Data cannot be
+accessed directly...try using URI from
+dvExtractFileIds(dvMetadata())</span></div>
+</div>
+<div><br /></div>
+<br />
+<div>This is despite me marking the data as Public. I do not know
+the reason yet, but it could have to do with setting the CC-BY-SA
+license? They indeed do apply, but that doesn't mean an anonymous
+user cannot download it. The error seems to originate from info in
+here:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">dvQuery(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+dv="https://www.dataverse.nl/dvn/",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; verb =
+"downloadInfo",</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160; query =
+files$fileId[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>This code is part of the download function, which returns a
+XML snippet with this part:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&lt;accessRestrictions
+granted="false"&gt;</span></div>
+<div><br /></div>
+<div>The workaround suggested in the error message is to just use
+the URI, using default R functionality:</div>
+<div><br /></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">download.file(</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$URI[1],</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">&#160;
+files$fileName[1]</span></div>
+<div><span style=
+"font-family: Courier New, Courier, monospace;">)</span></div>
+<div><br /></div>
+<div>However, this does not return the data file, but a HTML page
+that allows one to accept the terms of use. Of course, we can use
+the browser option in several of the methods, but any user
+interaction makes downloading data in a workflow setting
+unrealistic.</div>
+<div><br /></div>
+<div>Now, it should be able to automate that, not? We should be
+able to instruct the dvn package and the Dataverse network to
+always accept Creative Commons licenses, right?</div>
+</div>
+</div>]]></content:encoded>
+  <description>Last Thursday, there was a UM library network drink. And as I see a library where knowledge is found, and libraries still rarely think of knowledge as ever being able to be stored outside books and papers, I was happy to see the library promoting the Dutch Dataverse Network . So, I had to try it, and see if it fulfilled my basic needs: shows under what conditions people can download, modify, and redistribute data; has a high visibility on the web; and it is open source &amp;#160;and developed by @thedataorg . And it does: and here is the v13.5 ...</description>
+</item>
+<item rdf:about="http://blog.aksw.org/2013/ontowiki-feature-of-the-week-api-documentation/">
+  <dc:creator>AKSW Group - University of Leipzig</dc:creator>
+  <dc:source>AKSW Group - University of Leipzig</dc:source>
+  <dc:relation>http://blog.aksw.org/</dc:relation>
+  <planet:content xmlns="http://www.w3.org/1999/xhtml" rdf:parseType="Literal">
+<div>
+<p>This week we would like to present the revised API reference
+documentation, hostet at <a href=
+"http://api.ontowiki.net/">http://api.ontowiki.net/</a>.</p>
+<p>The documentation collects informationen about classes of
+OntoWiki and the Erfurt library while leaving out other libraries
+(like Zend Framework etc.) to stay compact.</p>
+<p>Next to the documentation for the master branch, you now
+are&#160;also able to look inside the current state at the develop
+branch.<br />
+While the master branch documentation keeps it simple, the develop
+branch documentation offers more information (hints, todos, etc.)
+for developers.</p>
+<p>A special feature of the OntoWiki API documentation is the
+presentation of the triggered events including documentation and
+location.</p>
+<p><a href=
+"http://blog.aksw.org/wp-content/uploads/2013/08/OW_API.png"><img class="aligncenter size-full wp-image-1171"
+title="OW_API" src=
+"http://blog.aksw.org/wp-content/uploads/2013/08/OW_API.png" alt=""
+width="1052" height="784" /></a><br />
+For working offline you now can download the complete API reference
+documentation of each branch directly from <a href=
+"http://api.ontowiki.net/">http://api.ontowiki.net/</a> (see tab
+Downloads).</p>
+</div>
+</planet:content>
+  <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-28T14:00:09Z</dc:date>
+  <title>OntoWiki Feature of the Week: API Documentation</title>
+  <link>http://blog.aksw.org/2013/ontowiki-feature-of-the-week-api-documentation/</link>
+  <content:encoded rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral"><![CDATA[
+<div xmlns='http://www.w3.org/1999/xhtml'>
+<div>
+<p>This week we would like to present the revised API reference
+documentation, hostet at <a href=
+"http://api.ontowiki.net/">http://api.ontowiki.net/</a>.</p>
+<p>The documentation collects informationen about classes of
+OntoWiki and the Erfurt library while leaving out other libraries
+(like Zend Framework etc.) to stay compact.</p>
+<p>Next to the documentation for the master branch, you now
+are&#160;also able to look inside the current state at the develop
+branch.<br />
+While the master branch documentation keeps it simple, the develop
+branch documentation offers more information (hints, todos, etc.)
+for developers.</p>
+<p>A special feature of the OntoWiki API documentation is the
+presentation of the triggered events including documentation and
+location.</p>
+<p><a href=
+"http://blog.aksw.org/wp-content/uploads/2013/08/OW_API.png"><img class="aligncenter size-full wp-image-1171"
+title="OW_API" src=
+"http://blog.aksw.org/wp-content/uploads/2013/08/OW_API.png" alt=""
+width="1052" height="784" /></a><br />
+For working offline you now can download the complete API reference
+documentation of each branch directly from <a href=
+"http://api.ontowiki.net/">http://api.ontowiki.net/</a> (see tab
+Downloads).</p>
+</div>
+</div>]]></content:encoded>
+  <description>This week we would like to present the revised API reference documentation, hostet at http://api.ontowiki.net/ . The documentation collects informationen about classes of OntoWiki and the Erfurt library while leaving out other libraries (like Zend Framework etc.) to stay compact. Next to the documentation for the master branch, you now are&amp;#160;also able to look inside the current state at the develop branch. While the master branch documentation keeps it simple, the develop branch documentation offers more information (hints, todos, etc.) for developers. A special feature of the OntoWiki API documentation is the presentation of the triggered events including documentation and ...</description>
+</item>
+</rdf:RDF>

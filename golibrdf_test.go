@@ -17,7 +17,7 @@
 * You may not use this file except in compliance with at least one of
 * the above three licenses.
 *
-*/
+ */
 
 package golibrdf
 
@@ -38,6 +38,12 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 <dc:description>The generic home page of Dave Beckett.</dc:description>
 </rdf:Description>
 </rdf:RDF>`
+
+const testRemoteUri string = "http://librdf.org/redland.rdf"
+const testRemoteUri2 string = "http://example.librdf.org/"
+const testRemoteUri3 string = "http://planetrdf.com/index.rdf"
+const testRemoteUri4 string = "https://raw.github.com/dajobe/librdf/master/data/dc.rdf"
+const testLocalUriFile string = "file:./testdata/dc.rdf"
 
 //Test_ParseAddAndQuery is based on Example1 from the librdf library and tests the following sequence:
 //	- Creating a model based on content parsed from a URI. 
@@ -73,7 +79,7 @@ func Test_ParseAddAndQuery(t *testing.T) {
 	defer model.Free()
 
 	// and a parser
-	uriString := "http://librdf.org/redland.rdf"
+	uriString := testRemoteUri
 	// construct a URI based on the uri arg
 	if uri, err = NewUri(world, uriString); err != nil {
 		t.Fatalf("Failed to create a new URI: %s", err.Error())
@@ -96,18 +102,34 @@ func Test_ParseAddAndQuery(t *testing.T) {
 
 	// build a statement out of a set of nodes
 	subject, err = NewNodeFromUriString(world, "http://www.dajobe.org/")
+	if err != nil {
+		t.Fatalf("Failed to create subject node from uri: %s", err.Error())
+	}
 	defer subject.Free()
 
 	predicate, err = NewNodeFromUriString(world, "http://purl.org/dc/elements/1.1/title")
+	if err != nil {
+		t.Fatalf("Failed to create predicate node from Uri string: %s", err.Error())
+	}
 	defer predicate.Free()
 
 	object, err = NewNodeFromLiteral(world, "My Home Page")
+	if err != nil {
+		t.Fatalf("Failed to create node from literal: %s", err.Error())
+	}
 	defer object.Free()
 
 	statement, err = NewStatementFromNodes(world, subject, predicate, object)
+	if err != nil {
+		t.Fatalf("Failed to create statement from nodes: %s", err.Error())
+	}
 	defer statement.Free()
 
-	fmt.Printf("  Statement: %s\n", statement.ToString())
+	statementString, err := statement.ToString()
+	if err != nil {
+		t.Fatalf("Failed to construct statement string: %s", err.Error())
+	}
+	fmt.Printf("  Statement: %s\n", statementString)
 
 	model.AddStatement(statement)
 
@@ -122,11 +144,11 @@ func Test_ParseAddAndQuery(t *testing.T) {
 	}
 
 	if findPredicate, err = NewNodeFromUriString(world, "http://purl.org/dc/elements/1.1/title"); err != nil {
-		panic(err)
+		t.Fatalf("Failed to create findPredicate node: %s", err.Error())
 	}
 
 	if partialStatement, err = NewStatement(world); err != nil {
-		panic(err)
+		t.Fatalf("Failed to create partial statement: %s", err.Error())
 	}
 	defer partialStatement.Free() // this will also free attached nodes
 
@@ -139,7 +161,11 @@ func Test_ParseAddAndQuery(t *testing.T) {
 	chanStatements := model.FindStatements(partialStatement, 100)
 
 	for statement := range chanStatements {
-		fmt.Printf("  Matched Statement: %s\n", statement.ToString())
+		matchedStatementString, err := statement.ToString()
+		if err != nil {
+			t.Fatalf("Failed to create matchedStatement string: %s", err.Error())
+		}
+		fmt.Printf("  Matched Statement: %s\n", matchedStatementString)
 		count = count + 1
 		statement.Free()
 	}
@@ -150,7 +176,11 @@ func Test_ParseAddAndQuery(t *testing.T) {
 	count = 0
 
 	for target := range chanTargets {
-		fmt.Printf("  Matched Target: %s", target.ToString())
+		targetString, err := target.ToString()
+		if err != nil {
+			t.Fatalf("Failed to create targetString: %s", err.Error())	
+		}
+		fmt.Printf("  Matched Target: %s", targetString)
 		count = count + 1
 		target.Free()
 	}
@@ -180,7 +210,7 @@ func Test_ParseStringAddCheckAndRemove(t *testing.T) {
 	}
 	defer world.Close()
 
-	if uri, err = NewUri(world, "http://example.librdf.org/"); err != nil {
+	if uri, err = NewUri(world, testRemoteUri2); err != nil {
 		t.Fatalf("Failed to create URI: %s", err.Error())
 	}
 	defer uri.Free()
@@ -215,9 +245,17 @@ func Test_ParseStringAddCheckAndRemove(t *testing.T) {
 	object, err = NewNodeFromLiteral(world, "object")
 
 	statement, err = NewStatementFromNodes(world, subject, predicate, object)
+	if err != nil {
+		t.Fatalf("Failed to create statement from nodes: %s", err.Error())
+	}
 	defer statement.Free() // note: this will free the attached nodes
 
-	fmt.Printf("  Statement: %s\n", statement.ToString())
+	statementString, err := statement.ToString()
+	if err != nil {
+		t.Fatalf("Failed to create string representation of statement: %s", err.Error())
+	}
+
+	fmt.Printf("  Statement: %s\n", statementString)
 	if err = model.AddStatement(statement); err != nil {
 		t.Fatalf("Failed to add statement: %s", err.Error())
 	}
@@ -226,9 +264,9 @@ func Test_ParseStringAddCheckAndRemove(t *testing.T) {
 	fmt.Printf("%s: Resulting model is:\n%s", os.Args[0], model.ToString())
 
 	if !model.ContainsStatement(statement) {
-		fmt.Printf("  Model does not contain the statement: %s\n", statement.ToString())
+		fmt.Printf("  Model does not contain the statement: %s\n", statementString)
 	} else {
-		fmt.Printf("  Model contains the statement: %s\n", statement.ToString())
+		fmt.Printf("  Model contains the statement: %s\n", statementString)
 
 		fmt.Printf("%s: Removing the statement", os.Args[0])
 		if err = model.RemoveStatement(statement); err != nil {
@@ -281,7 +319,12 @@ func Test_NewModelAddAndSerialize(t *testing.T) {
 	statement, err = NewStatementFromNodes(world, subject, predicate, object)
 	defer statement.Free()
 
-	fmt.Printf("  Statement: %s\n", statement.ToString())
+	statementString, err := statement.ToString() 
+	if err != nil {
+		t.Fatalf("Failed to create string representation of statement: %s", err.Error())
+	}
+	fmt.Printf("  Statement: %s\n", statementString)
+
 	if err = model.AddStatement(statement); err != nil {
 		t.Fatalf("Failed to add statement: %s", err.Error())
 	}
@@ -327,7 +370,7 @@ func Test_ParseAndSerialize(t *testing.T) {
 	}
 	defer model.Free()
 
-	if uri, err = NewUri(world, "file:./testdata/dc.rdf"); err != nil {
+	if uri, err = NewUri(world, testLocalUriFile); err != nil {
 		t.Fatalf("Failed to create URI: %s", err.Error())
 	}
 	defer uri.Free()
@@ -368,7 +411,7 @@ func Test_ParseAndSparqlQuery(t *testing.T) {
 	storageOptions := ""
 
 	var err error
-	uriString := "file:./testdata/dc.rdf"
+	uriString := testLocalUriFile
 
 	// create a new world
 	world := NewWorld()
@@ -425,7 +468,11 @@ func Test_ParseAndSparqlQuery(t *testing.T) {
 		fmt.Printf("  result: [")
 
 		for _, nameNodePair := range queryResultItem.NameNodePairs {
-			fmt.Printf("%s=%s", nameNodePair.Name, nameNodePair.Node.ToString())
+			nodeString, err := nameNodePair.Node.ToString() 
+			if err != nil {
+				t.Fatalf("Failed to create string representation of node: %s", err.Error())
+			}			
+			fmt.Printf("%s=%s", nameNodePair.Name, nodeString)
 		}
 
 		fmt.Printf("]")
@@ -465,7 +512,7 @@ func Test_ModelLoadAndSerialize(t *testing.T) {
 	}
 	defer model.Free()
 
-	if uri, err = NewUri(world, "http://planetrdf.com/index.rdf"); err != nil {
+	if uri, err = NewUri(world, testRemoveUri3); err != nil {
 		t.Fatalf("Failed to create URI: %s", err.Error())
 	}
 	defer uri.Free()
@@ -526,7 +573,7 @@ func Test_ParseAndQueryToFormattedString(t *testing.T) {
 	storageType := "memory"
 
 	var err error
-	uriString := "http://librdf.org/redland.rdf"
+	uriString := testRemoteUri
 
 	// create a new world
 	world := NewWorld()
@@ -586,8 +633,7 @@ func Test_ParseAndQueryToFormattedString(t *testing.T) {
 //	- Loading the contents at a URI into a Go string 
 //	- Parsing the string into a model
 func Test_ParseStringIntoModel(t *testing.T) {
-
-	uriString := "https://raw.github.com/dajobe/librdf/master/data/dc.rdf"
+	uriString := testRemoteUri4
 	storageType := "memory"
 	parserName := "raptor"
 
@@ -599,13 +645,13 @@ func Test_ParseStringIntoModel(t *testing.T) {
 
 	resp, err := http.Get(uriString)
 	if err != nil {
-		panic(err)
+		t.Fatalf("Failed to http.Get URI: %s", err.Error())
 	}
 	defer resp.Body.Close()
 
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
-		panic(err)
+		t.Fatalf("Failed to read response body for URI: %s", err.Error())
 	}
 	bodyString := fmt.Sprintf("%s", body)
 
@@ -618,30 +664,30 @@ func Test_ParseStringIntoModel(t *testing.T) {
 
 	// construct a URI based on the uri arg
 	if uri, err = NewUri(world, uriString); err != nil {
-		panic(err)
+		t.Fatalf("Failed to create URI: %s", err.Error())
 	}
 	defer uri.Free()
 
 	// construct a storage provider
 	if storage, err = NewStorage(world, storageType, "test", ""); err != nil {
-		panic(err)
+		t.Fatalf("Failed to create storage: %s", err.Error())
 	}
 	defer storage.Free()
 
 	// construct a model
 	if model, err = NewModel(world, storage, ""); err != nil {
-		panic(err)
+		t.Fatalf("Failed to create model: %s", err.Error())
 	}
 	defer model.Free()
 
 	// and a parser
 	if parser, err = NewParser(world, parserName, ""); err != nil {
-		panic(err)
+		t.Fatalf("Failed to create parser: %s", err.Error())
 	}
 	defer parser.Free()
 
 	if err = parser.ParseStringIntoModel(bodyString, uri, model); err != nil {
-		panic(err)
+		t.Fatalf("Failed to parser string into model: %s", err.Error())
 	}
 
 	// print out the model

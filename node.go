@@ -110,7 +110,7 @@ func NewNodeFromUriString(world *World, uriString string) (*Node, error) {
 }
 
 //ToString returns a string representation of the node
-func (node *Node) ToString() string {
+func (node *Node) ToString() (string, error) {
 	var stringPointer unsafe.Pointer
 	var length C.size_t
 
@@ -118,13 +118,15 @@ func (node *Node) ToString() string {
 	stream := C.raptor_new_iostream_to_string(raptorWorld, &stringPointer, &length, nil)
 
 	if stream == nil {
-		panic(errors.New("Unable to obtain raptor stream"))
+		return "", errors.New("Unable to obtain raptor stream")
 	}
+
+	defer C.free(unsafe.Pointer(stringPointer))
 
 	C.librdf_node_write(node.librdf_node, stream)
 	C.raptor_free_iostream(stream)
 
-	return C.GoString((*C.char)(unsafe.Pointer(stringPointer)))
+	return C.GoString((*C.char)(unsafe.Pointer(stringPointer))), nil
 }
 
 //Free cleans up memory resources held by the Node

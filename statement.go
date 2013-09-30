@@ -310,22 +310,23 @@ func (statement *Statement) decodeInner(world *World, encodedStatement string, w
 }
 
 //ToString serializers a statement to string
-func (statement *Statement) ToString() string {
+func (statement *Statement) ToString() (string, error) {
 	var stringPointer unsafe.Pointer
 	var length C.size_t
-
+	
 	raptorWorld := statement.world.GetRaptorWorld()
+	
 	stream := C.raptor_new_iostream_to_string(raptorWorld, &stringPointer, &length, nil)
-
 	if stream == nil {
-		panic(errors.New("Unable to obtain raptor stream"))
+		return "", errors.New("Unable to obtain raptor stream")
 	}
+	defer C.raptor_free_iostream(stream)
 
 	if result := C.librdf_statement_write(statement.librdf_statement, stream); result != 0 {
-		panic(errors.New("Unable to write statement"))
+		return "", errors.New("Unable to write statement")
 	}
+	defer C.free(unsafe.Pointer(stringPointer))
+	
 
-	C.raptor_free_iostream(stream)
-
-	return C.GoString((*C.char)(unsafe.Pointer(stringPointer)))
+	return C.GoString((*C.char)(unsafe.Pointer(stringPointer))), nil
 }
