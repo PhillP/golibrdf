@@ -39,10 +39,10 @@ xmlns:dc="http://purl.org/dc/elements/1.1/">
 </rdf:Description>
 </rdf:RDF>`
 
-const testRemoteUri string = "http://librdf.org/redland.rdf"
-const testRemoteUri2 string = "http://example.librdf.org/"
-const testRemoteUri3 string = "http://planetrdf.com/index.rdf"
-const testRemoteUri4 string = "https://raw.github.com/dajobe/librdf/master/data/dc.rdf"
+const testRemoteUri string = "http://rawgithub.com/PhillP/golibrdf/master/testdata/redland.rdf"
+const testRemoteUri2 string = "http://phillp.github.io/"
+const testRemoteUri3 string = "http://rawgithub.com/PhillP/golibrdf/master/testdata/planet.rdf"
+const testRemoteUri4 string = "https://rawgithub.com/PhillP/golibrdf/master/testdata/dc.rdf"
 const testLocalUriFile string = "file:./testdata/dc.rdf"
 
 //Test_ParseAddAndQuery is based on Example1 from the librdf library and tests the following sequence:
@@ -512,7 +512,7 @@ func Test_ModelLoadAndSerialize(t *testing.T) {
 	}
 	defer model.Free()
 
-	if uri, err = NewUri(world, testRemoveUri3); err != nil {
+	if uri, err = NewUri(world, testRemoteUri3); err != nil {
 		t.Fatalf("Failed to create URI: %s", err.Error())
 	}
 	defer uri.Free()
