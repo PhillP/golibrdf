@@ -129,6 +129,68 @@ func (node *Node) ToString() (string, error) {
 	return C.GoString((*C.char)(unsafe.Pointer(stringPointer))), nil
 }
 
+//GetUriString returns the URI string for the node.  (Only appropriate if the node is a resource type)
+func (node *Node) GetUriString() string {
+	var uriString string
+
+	if uri := C.librdf_node_get_uri(node.librdf_node); uri != nil {
+		if cString := C.librdf_uri_to_string(uri); cString != nil {
+			defer C.free(unsafe.Pointer(cString))
+
+			uriString = C.GoString((*C.char)(unsafe.Pointer(cString)))
+		}
+	}
+
+	return uriString 
+}
+
+//IsLiteral returns true if the node represents a literal value
+func (node *Node) IsLiteral() bool {
+	isLiteralCode := C.librdf_node_is_literal(node.librdf_node)
+
+	return (isLiteralCode != 0) 
+}
+
+//IsResource returns true if the node represents a resource
+func (node *Node) IsResource() bool {
+	isResourceCode := C.librdf_node_is_resource(node.librdf_node)
+
+	return (isResourceCode != 0) 
+}
+
+//IsBlank returns true if the node represents a blank
+func (node *Node) IsBlank() bool {
+	isBlank := C.librdf_node_is_blank(node.librdf_node)
+
+	return (isBlank != 0) 
+}
+
+//GetLiteralValue returns the literal string for the node.  (Only appropriate if the node is a literal type)
+func (node *Node) GetLiteralValue() string {
+	var literalString string
+
+	value := C.librdf_node_get_literal_value(node.librdf_node)
+
+	if value != nil {
+		literalString = C.GoString(((*C.char)(unsafe.Pointer(value))))
+	}
+
+	return literalString
+}
+
+//GetLiteralValueLanguage returns the language string associated with the literal value for the node
+func (node *Node) GetLiteralValueLanguage() string {
+	var languageString string
+
+	value := C.librdf_node_get_literal_value_language(node.librdf_node)
+
+	if value != nil {
+		languageString = C.GoString(value)
+	}
+
+	return languageString
+}
+
 //Free cleans up memory resources held by the Node
 //	Free will be automatically called when Node instances are garbage collected
 //  however it is important to explicitly call Free to avoid issues that may result

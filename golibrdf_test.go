@@ -242,7 +242,23 @@ func Test_ParseStringAddCheckAndRemove(t *testing.T) {
 	// build a statement out of a set of nodes
 	subject, err = NewNodeFromUriString(world, "http://example.org/subject")
 	predicate, err = NewNodeFromUriString(world, "http://example.org/pred1")
+
+	if !predicate.IsResource() {
+		t.Fatalf("Resource node returned IsResource() == false")
+	}
+
+	if predicateUriString := predicate.GetUriString(); predicateUriString != "http://example.org/pred1" {
+		t.Fatalf("GetUriString() returned result other than uri string used to construct the node")	
+	}
+
 	object, err = NewNodeFromLiteral(world, "object")
+	if !object.IsLiteral() {
+		t.Fatalf("Literal node returned IsLiteral() == false")
+	}
+
+	if objectString := object.GetLiteralValue(); objectString != "object" {
+		t.Fatalf("GetLiteralValue() returned result other than string used to construct the literal node")	
+	}
 
 	statement, err = NewStatementFromNodes(world, subject, predicate, object)
 	if err != nil {
